@@ -1,0 +1,135 @@
+{
+  "id": "barakoa_tribe",
+  "title": "Tribu Barakoa",
+  "description": "Encuentro con la Tribu Barakoa en las selvas de Estero",
+  "start": "greeting",
+  "entries": [
+    {
+      "id": "greeting",
+      "speaker": {"text": "Tata Fawna", "color": "gold", "bold": true},
+      "text": [
+        {"text": "Alto ahi, viajero. "},
+        {"text": "Este bosque pertenece a la Tribu Barakoa.", "color": "gold"}
+      ],
+      "portraits": [
+        {"path": "barakoa_seer.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Soy un viajero pacifico", "color": "green"},
+          "target": "pacifist_path",
+          "command": ["scoreboard players set @s community 1"]
+        },
+        {
+          "text": {"text": "Vengo en busca de honor", "color": "gold"},
+          "target": "honor_path"
+        }
+      ]
+    },
+    {
+      "id": "pacifist_path",
+      "speaker": {"text": "Tata Fawna", "color": "gold"},
+      "text": [
+        {"text": "Pacifico, dices... ", "color": "gray"},
+        {"text": "Los que dicen ser pacificos a menudo son los mas peligrosos.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "barakoa_seer.png", "position": "LEFT", "brightness": 1.0},
+        {"path": "barakoa_fury.png", "position": "RIGHT", "brightness": 0.5}
+      ],
+      "options": [
+        {
+          "text": {"text": "Les juro que no vengo a hacer dano", "color": "green"},
+          "target": "prove_yourself"
+        },
+        {
+          "text": {"text": "Tengan cuidado conmigo", "color": "red"},
+          "target": "hostile_response"
+        }
+      ]
+    },
+    {
+      "id": "honor_path",
+      "speaker": {"text": "Joven Kael", "color": "aqua"},
+      "text": [
+        {"text": "Hermano viajero! ", "color": "aqua"},
+        {"text": "El Tata te escucha. El honor es el camino de nuestra tribu."}
+      ],
+      "portraits": [
+        {"path": "barakoa_seer.png", "position": "LEFT", "brightness": 0.5},
+        {"path": "barakoa_fury.png", "position": "RIGHT", "brightness": 0.5},
+        {"path": "barakoa_kael.png", "position": "CENTER", "brightness": 1.0}
+      ],
+      "next": "prove_yourself"
+    },
+    {
+      "id": "prove_yourself",
+      "speaker": {"text": "Tata Fawna", "color": "gold", "bold": true},
+      "text": [
+        {"text": "Muy bien. ", "color": "gold"},
+        {"text": "La tribu te pone a prueba. Elimina a 5 de los muertos que deambulan cerca de la Guarida del Guardian. ", "color": "yellow"},
+        {"text": "Demuestra que tu sangre no es debil.", "color": "gold"}
+      ],
+      "portraits": [
+        {"path": "barakoa_seer.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto la prueba", "color": "gold", "bold": true},
+          "target": "quest_started",
+          "command": ["tag @s add barakoa_quest_zombies", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"gold\"},{\"text\":\"MISION: Elimina 5 muertos cerca de la Guarida del Guardian (X=520 Z=530)\",\"color\":\"yellow\"}]"]
+        },
+        {
+          "text": {"text": "No necesito probar nada", "color": "red"},
+          "target": "refuse_quest"
+        }
+      ]
+    },
+    {
+      "id": "quest_started",
+      "speaker": {"text": "Joven Kael", "color": "aqua"},
+      "text": [
+        {"text": "Buena suerte, hermano! ", "color": "aqua"},
+        {"text": "Los muertos no perdonan. Vuelve cuando completes la prueba."}
+      ],
+      "portraits": [
+        {"path": "barakoa_kael.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "quest_wait"
+    },
+    {
+      "id": "quest_wait",
+      "speaker": {"text": "Tata Fawna", "color": "gold"},
+      "text": [
+        {"text": "Ve. ", "color": "gray"},
+        {"text": "La tribu esperara tu regreso.", "color": "gold"}
+      ],
+      "portraits": [
+        {"path": "barakoa_seer.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "refuse_quest",
+      "speaker": {"text": "Guardian del Bosque", "color": "red", "bold": true},
+      "text": [
+        {"text": "Entonces no eres bienvenido aqui. ", "color": "red"},
+        {"text": "La tribu cierra sus puertas para los cobardes.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "barakoa_fury.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "hostile_response",
+      "speaker": {"text": "Guardian del Bosque", "color": "red", "bold": true},
+      "text": [
+        {"text": "ESO ES TODO! ", "color": "dark_red", "bold": true},
+        {"text": "La tribu no tolera amenazas!", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "barakoa_fury.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:slowness 10 2", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"red\"},{\"text\":\"El Guardian del Bosque te ha debilitado!\",\"color\":\"dark_red\"}]"]
+    }
+  ]
+}

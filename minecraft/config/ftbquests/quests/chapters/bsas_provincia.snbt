@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bsas_provincia"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "033C83D0AFAF4B33"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "230B44441D117E3D"
+			rewards: [
+				{
+					count: 2
+					id: "29B5312CEBA48ED7"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "21CC842F760B23B5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "2B04E8627233A249"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "276CC488DAE62FD3"
+			rewards: [
+				{
+					id: "2D350D74699B8222"
+					item: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "4BF0FAB83AC3369D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "747B74F714310535"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "163AC5EC95E1AE86"
+			rewards: [
+				{
+					count: 8
+					id: "1484094649027A53"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "75D311CBDABB5205"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "21148A783003727F"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "527B8F163AF4B5C3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "75E77F195CCD9FC5"
+			rewards: [
+				{
+					count: 64
+					id: "1CFD32D19F8CB0BC"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					id: "07CE01120B57FDC4"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "71345EAAD936F042"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

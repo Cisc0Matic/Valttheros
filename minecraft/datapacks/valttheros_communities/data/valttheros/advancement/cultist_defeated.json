@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "goety:crying_obsidian_shard"
+    },
+    "title": {
+      "text": "Fin del Culto",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Has derrotado al Heresiarch y acabado con el Culto de la Llama en Estero.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/crying_obsidian.png"
+  },
+  "criteria": {
+    "heresiarch_slain": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goety:heresiarch"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[]]
+}

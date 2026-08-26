@@ -1,0 +1,236 @@
+{
+	chapter.033C83D0AFAF4B33.title: "El Quilombo Final"
+	chapter.285761A9193CCDE8.title: "La Docta"
+	chapter.31F0C3F5D26A8695.title: "El Norte Azucarero"
+	chapter.4A2EBA3B4E8AC129.title: "La Rebelde del Parana"
+	chapter.784A70C90F6F5A49.title: "La Nube Dorada"
+	chapter.792BAC4F90B1511C.title: "Estero Profundo"
+	chapter.A1B2C3D400000001.title: "Misiones Secundarias"
+	chapter.B1A2C3D4E5F60001.title: "Tribu Barakoa"
+	chapter.C2B3A4D5E6F70001.title: "Culto de la Llama"
+	chapter_group.485E071B353FF153.title: "Valttheros"
+	quest.B1A2C3D4E5F60101.quest_desc: [
+		"La Tribu Barakoa te pone a prueba."
+		"Elimina a los muertos cerca de la Guarida del Guardian (X=520 Z=530)."
+		"Demuestra tu valor para ganarte su confianza."
+	]
+	quest.B1A2C3D4E5F60101.title: "El Primer Honor"
+	quest.B1A2C3D4E5F60201.quest_desc: [
+		"Tata Fawna necesita materiales sagrados."
+		"Consigue un bloque de oro y arena del alma."
+		"La Mascara de la Tribu te hara uno de ellos."
+	]
+	quest.B1A2C3D4E5F60201.title: "La Mascara Sagrada"
+	quest.B1A2C3D4E5F60301.quest_desc: [
+		"Los cultistas de la Llama amenazan la tribu."
+		"Elimina a 10 warlocks para sellar la alianza."
+		"La Tribu Barakoa luchara a tu lado."
+	]
+	quest.B1A2C3D4E5F60301.title: "Alianza de Sangre"
+	quest.C2B3A4D5E6F70101.quest_desc: [
+		"Necesitas infiltrarte en el Culto de la Llama."
+		"Consigue un libro escribible para pasar como acolito."
+		"Cuidado, los cultistas desconfian de todos."
+	]
+	quest.C2B3A4D5E6F70101.title: "Infiltracion"
+	quest.C2B3A4D5E6F70201.quest_desc: [
+		"El Tomo Infernal contiene los secretos del culto."
+		"Recuperalo de las ruinas antes de que destruyan las pruebas."
+		"Te servira para entender sus debilidades."
+	]
+	quest.C2B3A4D5E6F70201.title: "Robar el Tomo"
+	quest.C2B3A4D5E6F70301.quest_desc: [
+		"El Heresiarch es el lider del culto."
+		"Derrotalo para poner fin a la amenaza oscura."
+		"Es un boss dificil — prepareate bien."
+	]
+	quest.C2B3A4D5E6F70301.title: "Fin del Culto"
+	quest.06429BA228A3C8E9.quest_desc: [
+		"La Hinchada de River festeja en los Docks."
+		"Necesitan pan para el asado post-partido."
+		"16 panes y te invitan a la fiesta."
+	]
+	quest.06429BA228A3C8E9.title: "El Asado del Estadio"
+	quest.0790B156143D25C6.quest_desc: [
+		"Los Docks de Rosario hierven de actividad."
+		"Coordenadas: X=300, Y=62, Z=-700."
+		"El Rosarino Rebelde controla el puerto con mano dura."
+	]
+	quest.0790B156143D25C6.title: "Los Docks del Parana"
+	quest.090129638DBA1C3C.quest_desc: [
+		"La Fortaleza del Guardian custodia el norte."
+		"Ubicada en X=1000, Y=70, Z=-300."
+		"Derrota al Guardian del Azucar — un Golem de hierro — para avanzar."
+	]
+	quest.090129638DBA1C3C.title: "El Guardian del Azucar"
+	quest.0F2DF91D51365D96.quest_desc: [
+		"Bajo la Universidad yacen las Ruinas de la Cafeteria."
+		"X=-820, Y=50, Z=620 — baja a las catacumbas."
+		"Los Evokers del Profesor esperan ahi abajo."
+	]
+	quest.0F2DF91D51365D96.title: "Ruinas de la Cafeteria"
+	quest.108B280BD02C0597.quest_desc: [
+		"Algo acecha bajo la Plaza del Estero."
+		"Ve a X=520, Y=45, Z=530 para encontrar la Guarida del Guardian."
+		"Elimina 10 zombies alrededor del area."
+	]
+	quest.108B280BD02C0597.title: "Guarida del Guardian Estero"
+	quest.163AC5EC95E1AE86.quest_desc: [
+		"MOUSER el Raton Gigante aguarda en su guarida."
+		"Coordenadas: X=1500, Y=40, Z=1500 — profundo bajo tierra."
+		"Es un Warden — el enemigo final. Preparate bien antes de descender."
+	]
+	quest.163AC5EC95E1AE86.title: "MOUSER el Raton Gigante"
+	quest.17A159BF5978350D.quest_desc: [
+		"River vs Boca — el quilombo del estadio no para."
+		"Estadio en X=310, Y=65, Z=-720."
+		"Elimina a los Pillagers que tomaron el estadio."
+	]
+	quest.17A159BF5978350D.title: "River vs Boca"
+	quest.230B44441D117E3D.quest_desc: [
+		"Buenos Aires es el corazon del caos."
+		"El Obelisco se alza en X=0, Y=80, Z=0."
+		"La Avenida Corrientes nunca duerme — consigue pan para el viaje."
+	]
+	quest.230B44441D117E3D.title: "La Avenida Corrientes"
+	quest.253BA882CDB0BDAE.quest_desc: [
+		"El Profesor Cordobes y El Gringo guardan el saber."
+		"Encuentra la Universidad en X=-800, Y=72, Z=600."
+		"El cafe cordobes es la mejor moneda de cambio."
+	]
+	quest.253BA882CDB0BDAE.title: "El Cafe Legendario"
+	quest.276CC488DAE62FD3.quest_desc: [
+		"El Comandante Vael custodia Buenos Aires."
+		"Sala del Consejo: X=5, Y=66, Z=5."
+		"Derrota 3 Evokers para ganarte el respeto del Comandante."
+	]
+	quest.276CC488DAE62FD3.title: "El Consejo del Quilombo"
+	quest.27FDE10666BB1B0B.quest_desc: [
+		"El Gringo necesita melones para su negocio."
+		"Che boludo, no seas avaro!"
+		"8 rodajas de melon y te doy los secretos de La Docta."
+	]
+	quest.27FDE10666BB1B0B.title: "Che Boludo!"
+	quest.3AD6BFCA037F74E6.quest_desc: [
+		"El frio del norte te debilita."
+		"El Frio, habitante del Tucuman, te pide que te abrigues."
+		"Consigue armadura de hierro para resistir."
+	]
+	quest.3AD6BFCA037F74E6.title: "Tengo Frio!"
+	quest.5A5C103E0FDA7291.quest_desc: [
+		"Llega a la Plaza Principal del Estero."
+		"Coordenadas: X=500, Y=64, Z=500"
+		"Habla con Don Santiago para empezar tu camino."
+	]
+	quest.5A5C103E0FDA7291.title: "La Siesta del Estero"
+	quest.6F9109C9C141624D.quest_desc: [
+		"Don Santiago guarda un secreto."
+		"Consigue cuero para sobrevivir en el calor santiagueno."
+		"El Estero no perdona a los mal equipados."
+	]
+	quest.6F9109C9C141624D.title: "Equipate para el Calor"
+	quest.7146795780CD7733.quest_desc: [
+		"Maestro Dulce te espera en su Dulceria."
+		"Coordenadas: X=1015, Y=65, Z=-280"
+		"El azucar del norte tiene propiedades magicas."
+	]
+	quest.7146795780CD7733.title: "La Achilata del Maestro"
+	quest.75E77F195CCD9FC5.quest_desc: [
+		"Con MOUSER derrotado, la Nube Dorada es tuya."
+		"Regresa al Obelisco en X=0, Y=80, Z=0."
+		"Coloca el Nether Star como ofrenda — la victoria es total."
+	]
+	quest.75E77F195CCD9FC5.title: "La Nube Dorada Recuperada"
+	quest.A000000000000001.quest_desc: [
+		"La vida del andariego no es fácil"
+		"Pero al menos empezá con una manzana, boludo"
+	]
+	quest.A000000000000001.quest_subtitle: "Todo empieza con una manzana"
+	quest.A000000000000001.title: "El Despertar del Andariego"
+	quest.A000000000000002.quest_desc: [
+		"Necesitás una brújula para no perderte"
+		"A menos que seas de Tucumán, ahí todos se pierden"
+	]
+	quest.A000000000000002.quest_subtitle: "¿Dónde carajo quedó el norte?"
+	quest.A000000000000002.title: "La Siesta del Norte"
+	quest.A000000000000003.quest_desc: [
+		"Conseguí estas porquerías del Nether"
+		"Si no te morís de calor, no es achilata de verdad"
+	]
+	quest.A000000000000003.quest_subtitle: "La cura que no encontrás en la farmacia"
+	quest.A000000000000003.title: "La Achilata Perdida"
+	quest.A000000000000004.quest_desc: [
+		"El Golem de Hierro cuida el azúcar"
+		"Derrotalo antes de que se te acabe el mate con dulce"
+	]
+	quest.A000000000000004.quest_subtitle: "No es un robot, es un goloso"
+	quest.A000000000000004.title: "El Guardian del Azucar"
+	quest.A000000000000005.quest_desc: [
+		"Los Pillagers vienen con todo"
+		"Pero esta pelirroja los enfrenta con un palo y mucha furia"
+	]
+	quest.A000000000000005.quest_subtitle: "No le teme a nada, ni a los Pillagers"
+	quest.A000000000000005.title: "La Rebelde Pelirroja"
+	quest.A000000000000006.quest_desc: [
+		"Sin café no hay civilización"
+		"Conseguí estos granos y hacete un cafecito que te salve la vida"
+	]
+	quest.A000000000000006.quest_subtitle: "El café que tomaba Gardel"
+	quest.A000000000000006.title: "El Café Legendario"
+	quest.A000000000000007.quest_desc: [
+		"Los Evokers son la posta del mal"
+		"Si los derrotás, sos más argentino que el mate"
+	]
+	quest.A000000000000007.quest_subtitle: "Esto se pone picante"
+	quest.A000000000000007.title: "El Quilombo Final"
+	quest.A000000000000008.quest_desc: [
+		"Un Warden tan grande como un edificio en Microcentro"
+		"Si lo derrotás, sos la leyenda de Valttheros"
+	]
+	quest.A000000000000008.quest_subtitle: "El jefe final que nadie pidió"
+	quest.A000000000000008.title: "MOUSER el Raton Gigante"
+	quest.B000000000000001.quest_desc: [
+		"En Santiago del Estero, hasta los zombies laburan"
+		"Conseguí arbustos muertos y mandalos al otro mundo"
+	]
+	quest.B000000000000001.quest_subtitle: "Los santiagueños no se rinden"
+	quest.B000000000000001.title: "EH URA (Santiago del Estero)"
+	quest.B000000000000002.quest_desc: [
+		"Ponele un casco de cuero, boludo"
+		"No es la moda más top, pero te salva del frío"
+	]
+	quest.B000000000000002.quest_subtitle: "En Tucumán hace frío... mentira, pero bueno"
+	quest.B000000000000002.title: "TENGO FRIOO (Tucumán)"
+	quest.B000000000000003.quest_desc: [
+		"La verdadera dorada de Córdoba no es el sol"
+		"Son las sandías que te ponen la cara toda brillante"
+	]
+	quest.B000000000000003.quest_subtitle: "¿Vos también venís de Córdoba?"
+	quest.B000000000000003.title: "Che Boludo (Córdoba)"
+	quest.B000000000000004.quest_desc: [
+		"En Rosario el fútbol es sagrado"
+		"Derrotá a los Pillagers como River le ganó a Boca... o al revés"
+	]
+	quest.B000000000000004.quest_subtitle: "El clásico más épico"
+	quest.B000000000000004.title: "River vs Boca (Rosario)"
+	quest.B000000000000005.quest_desc: [
+		"Buenos Aires no para, y vos tampoco"
+		"Conseguí pan como si fueras a un kiosco a las 3 de la mañana"
+	]
+	quest.B000000000000005.quest_subtitle: "El asfalto que nunca duerme"
+	quest.B000000000000005.title: "La Avenida Corrientes (Buenos Aires)"
+	task.D000000000000001.title: "Conseguí 1 manzana"
+	task.D000000000000002.title: "Conseguí 1 brújula"
+	task.D000000000000003.title: "Conseguí 3 wart del Nether"
+	task.D000000000000004.title: "Matá 1 Golem de Hierro"
+	task.D000000000000005.title: "Matá 5 Pillagers"
+	task.D000000000000006.title: "Conseguí 16 granos de cacao"
+	task.D000000000000007.title: "Matá 3 Evokers"
+	task.D000000000000008.title: "Matá 1 Warden"
+	task.D100000000000001.title: "Matá 10 Zombies"
+	task.D100000000000002.title: "Conseguí 5 arbustos muertos"
+	task.D100000000000003.title: "Conseguí 1 casco de cuero"
+	task.D100000000000004.title: "Conseguí 8 rodajas de melón"
+	task.D100000000000005.title: "Matá 3 Pillagers"
+	task.D100000000000006.title: "Conseguí 16 panes"
+}

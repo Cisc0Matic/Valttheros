@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "estero_provincia"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:jungle_sapling"
+	}
+	id: "792BAC4F90B1511C"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5A5C103E0FDA7291"
+			rewards: [
+				{
+					count: 16
+					id: "6DAD0F847D386C11"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "28C7CF3048939520"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 5L
+				id: "49A23472F0E8006F"
+				item: { count: 1, id: "minecraft:dead_bush" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "108B280BD02C0597"
+			rewards: [
+				{
+					count: 3
+					id: "26490904F352EB55"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5ABCDC74950BACD8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "068FAA1A6B7F4031"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6F9109C9C141624D"
+			rewards: [
+				{
+					id: "63679EE259DF0102"
+					item: {
+						count: 1
+						id: "minecraft:leather_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "4A5DC2F4ED78500C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "4BCD806689F3767B"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

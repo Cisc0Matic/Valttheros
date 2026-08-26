@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rosario_provincia"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:fishing_rod"
+	}
+	id: "4A2EBA3B4E8AC129"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0790B156143D25C6"
+			rewards: [
+				{
+					count: 16
+					id: "675E577905C1D98D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "0DBFD0972BA5B58C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "2F37815F79B301CF"
+				item: { components: { "ftbquests:missing_item": "minecraft:fish" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "17A159BF5978350D"
+			rewards: [
+				{
+					count: 3
+					id: "55E9D89C1E1EF656"
+					item: {
+						count: 1
+						id: "minecraft:crossbow"
+					}
+					type: "item"
+				}
+				{
+					id: "42EA29BFEC5A62C8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "11B91A770C8C0BD8"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "06429BA228A3C8E9"
+			rewards: [
+				{
+					count: 2
+					id: "1BA8450BFA97F6BE"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+				{
+					id: "341C43D7D3A43B2A"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "7F21A2DF2146AE44"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

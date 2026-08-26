@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cordoba_provincia"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "285761A9193CCDE8"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "253BA882CDB0BDAE"
+			rewards: [
+				{
+					count: 3
+					id: "4444876984FC34A2"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF572DF696E9C46"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "723A62B106BB5CC5"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0F2DF91D51365D96"
+			rewards: [
+				{
+					id: "111B9910D98D2243"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "6A26A3DF99399245"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "5854AE57544561D6"
+				type: "kill"
+				value: 3L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "27FDE10666BB1B0B"
+			rewards: [
+				{
+					count: 5
+					id: "472148AF5E6F7823"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "0C300DF7060C7420"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "517B58C9CC0A3026"
+				item: { count: 1, id: "minecraft:melon_slice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "culto_llama"
+	group: "485E071B353FF153"
+	icon: {
+		id: "goety:crying_obsidian_shard"
+	}
+	id: "C2B3A4D5E6F70001"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C2B3A4D5E6F70101"
+			title: "Infiltracion"
+			description: "Necesitas infiltrarte en el Culto de la Llama. Consigue un libro escribible para pasar como acolito."
+			rewards: [
+				{
+					id: "C2B3A4D5E6F70102"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+						tag: '{display:{Name:'{"text":"Golpe de Fuego","color":"dark_purple","italic":false}"}}'
+					}
+					type: "item"
+				}
+				{
+					id: "C2B3A4D5E6F70103"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 1L
+				id: "C2B3A4D5E6F70104"
+				item: { count: 1, id: "minecraft:writable_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "C2B3A4D5E6F70201"
+			title: "Robar el Tomo"
+			description: "El Tomo Infernal contiene los secretos del culto. Recuperalo de las ruinas antes de que destruyan las pruebas."
+			rewards: [
+				{
+					id: "C2B3A4D5E6F70202"
+					item: {
+						count: 1
+						id: "minecraft:potion"
+						tag: '{Potion:"fire_resistance"}'
+					}
+					type: "item"
+				}
+				{
+					id: "C2B3A4D5E6F70203"
+					item: {
+						count: 3
+						id: "minecraft:crying_obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "C2B3A4D5E6F70204"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 1L
+				id: "C2B3A4D5E6F70205"
+				item: { count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "C2B3A4D5E6F70301"
+			title: "Fin del Culto"
+			description: "El Heresiarch es el lider del culto. Derrotalo para poner fin a la amenaza oscura en Estero."
+			rewards: [
+				{
+					id: "C2B3A4D5E6F70302"
+					item: {
+						count: 1
+						id: "minecraft:netherite_sword"
+						tag: '{display:{Name:'{"text":"Extinguidor de Llamas","color":"dark_red","italic":false}"}}'
+					}
+					type: "item"
+				}
+				{
+					id: "C2B3A4D5E6F70303"
+					count: 3
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "C2B3A4D5E6F70304"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "goety:heresiarch"
+				id: "C2B3A4D5E6F70305"
+				type: "kill"
+				value: 0L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

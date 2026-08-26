@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a1b2c3d400000001"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "7033F0B2799546E9"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1ECE049E8923C5CB"
+			rewards: [
+				{
+					id: "60C25EDA80462DAA"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "644BAAB0C3EFF161"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "76A93B36EDD0CE5D"
+					type: "kill"
+					value: 0L
+				}
+				{
+					consume_items: false
+					count: 5L
+					id: "59A190371A67DEDC"
+					item: { count: 1, id: "minecraft:dead_bush" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "32BE22FC93570146"
+			rewards: [
+				{
+					count: 16
+					id: "5A12EAED2782A0D5"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "214ED7024D1DF635"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "68C93FD74B8FFFFB"
+				item: { count: 1, id: "minecraft:leather_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5388641EF252352A"
+			rewards: [
+				{
+					count: 4
+					id: "6E641262B7498061"
+					item: {
+						count: 1
+						id: "minecraft:glistering_melon_slice"
+					}
+					type: "item"
+				}
+				{
+					id: "01C730AFB824CE80"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "21FFF9517926547B"
+				item: { count: 1, id: "minecraft:melon_slice" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "09D6D311697E232F"
+			rewards: [
+				{
+					id: "181F0C9B641977AD"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					id: "114E0E28FAA01AD9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "55522DBB052D69BB"
+				type: "kill"
+				value: 0L
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "679C5B24EEDB3E31"
+			rewards: [
+				{
+					id: "24ED576E67353D7D"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+				{
+					id: "54149CB74A016805"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "620EE64AA642FBCA"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+	]
+}

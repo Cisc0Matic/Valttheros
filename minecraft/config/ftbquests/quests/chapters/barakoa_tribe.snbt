@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "barakoa_tribe"
+	group: "485E071B353FF153"
+	icon: {
+		id: "mowziesmobs:barakoa_mask_fawn"
+	}
+	id: "B1A2C3D4E5F60001"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B1A2C3D4E5F60101"
+			title: "El Primer Honor"
+			description: "La Tribu Barakoa te pone a prueba. Elimina a los muertos que deambulan cerca de la Guarida del Guardian para demostrar tu valor."
+			rewards: [
+				{
+					id: "B1A2C3D4E5F60102"
+					item: {
+						count: 1
+						id: "minecraft:leather_helmet"
+						tag: '{display:{Name:'{"text":"Mascara Basica","color":"gold","italic":false}',Color:8606770}}'
+					}
+					type: "item"
+				}
+				{
+					id: "B1A2C3D4E5F60103"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "B1A2C3D4E5F60104"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "B1A2C3D4E5F60201"
+			title: "La Mascara Sagrada"
+			description: "Tata Fawna necesita materiales sagrados para crear la Mascara de la Tribu. Consigue oro y arena del alma."
+			rewards: [
+				{
+					id: "B1A2C3D4E5F60202"
+					item: {
+						count: 1
+						id: "minecraft:leather_chestplate"
+						tag: '{display:{Name:'{"text":"Tunica Tribal","color":"gold","italic":false}',Color:5145144}}'
+					}
+					type: "item"
+				}
+				{
+					id: "B1A2C3D4E5F60203"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+						tag: '{display:{Name:'{"text":"Lanza Tribal","color":"gold","italic":false}"}}'
+					}
+					type: "item"
+				}
+				{
+					id: "B1A2C3D4E5F60204"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 1L
+				id: "B1A2C3D4E5F60205"
+				item: { count: 1, id: "minecraft:gold_block" }
+				type: "item"
+			}
+			{
+				consume_items: false
+				count: 1L
+				id: "B1A2C3D4E5F60206"
+				item: { count: 1, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "B1A2C3D4E5F60301"
+			title: "Alianza de Sangre"
+			description: "Los cultistas de la Llama amenazan la tribu. Elimina a 10 de sus secuaces para sellar la alianza."
+			rewards: [
+				{
+					id: "B1A2C3D4E5F60302"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+						tag: '{display:{Name:'{"text":"Escudo Barakoa","color":"gold","italic":false}"}}'
+					}
+					type: "item"
+				}
+				{
+					id: "B1A2C3D4E5F60303"
+					count: 10
+					item: {
+						count: 1,
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "B1A2C3D4E5F60304"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [{
+				entity: "goety:warlock"
+				id: "B1A2C3D4E5F60305"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

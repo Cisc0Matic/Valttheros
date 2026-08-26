@@ -1,0 +1,285 @@
+{
+  "dialogues": {
+    "estero": {
+      "don_santiago": {
+        "name": "Don Santiago (Alcalde)",
+        "race": "Humano",
+        "location": "Estero - Plaza Principal",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "*bosteza* Ah... che... ¿venís de lejos? Andamos... *se duerme de pie*... despacio acá en Estero...",
+            "options": ["Despertalo", "Preguntale por el pueblo"]
+          },
+          {
+            "id": "despertar",
+            "text": "¿Eh? ¿Qué? ¡Ah, sos vos! Perdón, che... es que... *bosteza*... la siesta nos mata. ¿Necesitás algo?",
+            "options": ["Busco información", "¿Por qué duermen tanto?"]
+          },
+          {
+            "id": "info",
+            "text": "Acá en Estero somos... relajados, ¿viste? Los de Tucumán son más... activos. Pero ellos tienen su... *se duerme*... su cosa...",
+            "options": ["¿Dónde queda Tucumán?", "Adiós"]
+          },
+          {
+            "id": "direcciones",
+            "text": "Tucumán... *bosteza*... queda al norte, entre las montañas. Si seguí derecho vas a ver casas de piedra y... *se duerme*... azúcar...",
+            "options": ["Gracias", "Adiós"]
+          }
+        ]
+      },
+      "el_lento": {
+        "name": "El Lento",
+        "race": "Humano",
+        "location": "Estero - Plaza Principal",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¿...Che...?... ¿...Vos...?... Andamos... despacio... acá... en... Estero...",
+            "options": ["Esperar a que termine", "Irse"]
+          },
+          {
+            "id": "info",
+            "text": "Nosotros... somos... así... ¿viste?... No... nos... apuramos... para... nada...",
+            "options": ["Adiós"]
+          }
+        ]
+      }
+    },
+    "tucuman": {
+      "maestro_dulce": {
+        "name": "Maestro Dulce",
+        "race": "Enano",
+        "location": "Tucumán - Dulcería",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡¿Querés alfajor?! ¡Tenemos 47 tipos! ¡Con dulce de leche, membrillo, batata, membrillo con batata...!",
+            "options": ["Busco la achilata", "Solo miro"]
+          },
+          {
+            "id": "achilata",
+            "text": "¡La achilata! ¡Ese es el secreto mejor guardado de Tucumán! Pero el ingrediente secreto... está en la fortaleza del Guardián del Azúcar.",
+            "options": ["¿Dónde está?", "¿Quién es el Guardián?"]
+          },
+          {
+            "id": "guardian_info",
+            "text": "¡Es un enano gigante corrompido por el exceso de azúcar! ¡Cuidado, che! ¡Te lanza dulces explosivos!",
+            "options": ["Ir a buscarlo", "¿Sabés de otros pueblos?"]
+          },
+          {
+            "id": "pueblos_info",
+            "text": "¡Al oeste está Córdoba! ¡Dicen que hay una universidad copada y ruinas de cafeterías! ¡Pero los de ahí son todos unos tinchos!",
+            "options": ["Gracias", "Adiós"]
+          }
+        ]
+      },
+      "el_frio": {
+        "name": "El Frío",
+        "race": "Enano",
+        "location": "Tucumán - Plaza",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡TENGO FRIOO! ¡EEH URA! ¿Vos no tenés frío? ¡Acá en Tucumán hace un frío que te caga!",
+            "options": ["¿Por qué hace frío?", "Adiós"]
+          },
+          {
+            "id": "frío_info",
+            "text": "¡Es que el Guardián del Azúcar congeló todo! ¡El imbécil se comió toda la energía del azúcar y ahora hace frío!",
+            "options": ["Ir a derrotarlo", "Adiós"]
+          }
+        ]
+      }
+    },
+    "cordoba": {
+      "el_gringo": {
+        "name": "El Gringo",
+        "race": "Humano (Bonaerense)",
+        "location": "Córdoba - Universidad",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡Che, boludo! ¿Vos también viniste a buscar el café legendario? ¡El Tincho se tomó todo el café de la ciudad!",
+            "options": ["¿Quién es el Tincho?", "¿Qué café?"]
+          },
+          {
+            "id": "tincho_info",
+            "text": "¡El Tincho! ¡Un estudiante que se tomó TODO el café! ¡Ahora no queda ni una gota! ¡Tenemos que ir a las ruinas de la cafetería!",
+            "options": ["¿Dónde están las ruinas?", "Adiós"]
+          },
+          {
+            "id": "ruinas_info",
+            "text": "¡Están al sur de la ciudad! ¡Pero cuidado, boludo! ¡Hay estudiantes fantasma que nunca durmieron!",
+            "options": ["Ir a buscarlo", "¿Qué más hay por acá?"]
+          },
+          {
+            "id": "otros_pueblos",
+            "text": "¡Al sureste está Rosario! ¡Ahí los orcos se pelean por fútbol! ¡Y más al sur está Buenos Aires, el centro de todo! ¡Pero primero Conseguí el café!",
+            "options": ["¡Voy al café!", "Adiós"]
+          }
+        ]
+      },
+      "profesor_cordobes": {
+        "name": "Profesor Cordobés",
+        "race": "Elfo",
+        "location": "Córdoba - Universidad",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡Andá a lavar los platos, pibe! ¡¿Viste que andamos ocupados acá?! ¡En Córdoba todo es más copado, ¿viste?!",
+            "options": ["Busco el café", "Adiós"]
+          },
+          {
+            "id": "cafe_info",
+            "text": "¡El café legendario! ¡Eso era lo que nos mantenía despiertos! ¡Pero el Tincho se lo tomó todo! ¡Andá a las ruinas y buscalo!",
+            "options": ["Gracias", "Adiós"]
+          }
+        ]
+      }
+    },
+    "rosario": {
+      "el_rebelde": {
+        "name": "El Rosarino Rebelde",
+        "race": "Orcos",
+        "location": "Rosario - Docks (escurridizo)",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡Che, vos! ¿Viniste a buscarme? ¡No soy fácil de encontrar, eh! ¡Me muevo por toda la ciudad!",
+            "options": ["Tengo información de MOUSER", "¿Por qué te escondés?"]
+          },
+          {
+            "id": "mouser_info",
+            "text": "¡MOUSER! ¡El ratón gigante! ¡Se robó la Nube Dorada! ¡Si me ayudás a derrotarlo, te doy algo especial!",
+            "options": ["¿Qué tenés?", "Adiós"]
+          },
+          {
+            "id": "recompensa",
+            "text": "¡Tengo un arma que nadie más tiene! ¡Pero primero ayudame con las hinchadas! ¡Se están peleando por River y Boca!",
+            "options": ["Voy a arreglarlo", "¿Dónde está Buenos Aires?"]
+          },
+          {
+            "id": "buenos_aires_info",
+            "text": "¡Buenos Aires queda al centro! ¡Es la ciudad más grande! ¡Ahí está el Consejo de los Antiguos! ¡Si seguís al norte desde acá, vas a llegar!",
+            "options": ["Gracias", "Adiós"]
+          }
+        ]
+      },
+      "hinchada_river": {
+        "name": "Hinchada de River",
+        "race": "Orcos",
+        "location": "Rosario - Estadio",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡VAMOS RIVER! ¡Los de Boca son todos unos mamarrachos! ¡¿Vos sos de River o sos de Boca?!",
+            "options": ["Soy neutral", "¡Vamos River!"]
+          },
+          {
+            "id": "pelea",
+            "text": "¡Hay que arreglar esto! ¡Los de Boca nos robaron el café que traíamos de Córdoba! ¡Andá a devolvérnoslo!",
+            "options": ["Voy a buscarlo", "Adiós"]
+          }
+        ]
+      }
+    },
+    "pueblos_random": {
+      "aldeano_viajero": {
+        "name": "Aldeano Viajero",
+        "race": "Humano",
+        "location": "Pueblo random (MVS/Structory)",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡Che, viajero! ¿Conocés estos pueblos? ¡Yo vengo de lejos! ¡Hay mucho por explorar en Valttheros!",
+            "options": ["¿Dónde hay pueblos?", "¿Qué sabés de las misiones?", "Adiós"]
+          },
+          {
+            "id": "pueblos",
+            "text": "¡Por todo el mundo hay casas, campamentos y hasta molinos! ¡Los aldeanos siempre tienen algo para decir! ¡Explorá bien cada pueblo que encuentres!",
+            "options": ["¿Y las provincias?", "Adiós"]
+          },
+          {
+            "id": "provincias",
+            "text": "¡Cada provincia tiene algo especial! Estero al sureste, Tucumán al norte, Córdoba al oeste, Rosario al sureste. ¡Y Buenos Aires es el centro de todo!",
+            "options": ["Gracias", "Adiós"]
+          },
+          {
+            "id": "misiones",
+            "text": "¡Dicen que el Consejo de Buenos Aires busca heroes! ¡Hay que recorrer los pueblos y juntar ingredientes! ¡Hablá con los alcaldes de cada provincia!",
+            "options": ["¡Voy a explorar!", "Adiós"]
+          }
+        ]
+      },
+      "mercader_caminante": {
+        "name": "Mercader Caminante",
+        "race": "Humano",
+        "location": "Pueblo random (MVS/Structory)",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡¿Viste algo bonito por ahí? ¡Yo viajo entre pueblos vendiendo miseria! ¡Pero al menos el camino es lindo!",
+            "options": ["¿Qué vendés?", "¿Tenés info de los pueblos?", "Adiós"]
+          },
+          {
+            "id": "info_pueblos",
+            "text": "¡Encontré pueblos con molinos, granjas, y hasta puestos de mercado! ¡Los del norte tienen casas de piedra, los del sur son más rústicos!",
+            "options": ["¿Dónde está el norte?", "Adiós"]
+          },
+          {
+            "id": "direccion_norte",
+            "text": "¡Al norte hay montañas y casas de deepslate! ¡Al oeste está la universidad de Córdoba! ¡Y al sureste, los docks de Rosario!",
+            "options": ["Gracias", "Adiós"]
+          }
+        ]
+      }
+    },
+    "buenos_aires": {
+      "comandante_vael": {
+        "name": "Comandante Vael",
+        "race": "Humano",
+        "location": "Buenos Aires - Sala del Consejo",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "Andariego, ¡bienvenido al Consejo de los Antiguos! ¡La Nube Dorada fue robada por MOUSER, el Ratón Gigante!",
+            "options": ["¿Quién es MOUSER?", "¿Qué debo hacer?"]
+          },
+          {
+            "id": "mouser_info",
+            "text": "¡Es un ratón gigante invocador! ¡Se esconde en su guarida con la Nube Dorada! ¡Necesitamos que recorras los pueblos y obtengas las armas para derrotarlo!",
+            "options": ["¿Qué pueblos?", "Adiós"]
+          },
+          {
+            "id": "pueblos_info",
+            "text": "¡Ve a Estero, Tucumán, Córdoba y Rosario! ¡En cada pueblo hay un ingrediente que necesitás! ¡Cuando los tengas, ven a derrotar a MOUSER!",
+            "options": ["¿Dónde queda cada uno?", "¡Voy en camino!"]
+          },
+          {
+            "id": "direcciones",
+            "text": "¡Escuchá bien! Estero queda al sureste, es un pueblo tranquilo donde todos duermen. Tucumán está al norte, entre montañas. Córdoba al oeste, tiene una universidad. Y Rosario al sureste, cerca del río. ¡Andá en ese orden!",
+            "options": ["¡Gracias, comandante!", "Adiós"]
+          }
+        ]
+      },
+      "mercader_zephyr": {
+        "name": "Mercader Zephyr",
+        "race": "Humano",
+        "location": "Buenos Aires - Mercado",
+        "dialogues": [
+          {
+            "id": "inicio",
+            "text": "¡¿Necesitás suministros?! ¡Tengo de todo! ¡Pociones, armas, comida! ¡Pero cuidado con el tráfico, eh!",
+            "options": ["¿Qué tenés?", "Adiós"]
+          },
+          {
+            "id": "items",
+            "text": "¡Tengo pociones de salud, armas básicas, y algo de comida argentina! ¡¿Querés probar unas empanadas?!",
+            "options": ["Comprar pociones", "Comprar comida", "Adiós"]
+          }
+        ]
+      }
+    }
+  }
+}

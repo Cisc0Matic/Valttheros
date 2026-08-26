@@ -1,0 +1,180 @@
+{
+  "waypoints": [
+    {
+      "id": "inicio",
+      "name": "Refugio del Alba (Buenos Aires)",
+      "x": 0,
+      "y": 64,
+      "z": 0,
+      "dimension": "minecraft:overworld",
+      "color": "#FFD700",
+      "icon": "village",
+      "description": "Punto de inicio de la aventura. Aquí comienza tu viaje para recuperar la Nube Dorada."
+    },
+    {
+      "id": "estero_plaza",
+      "name": "Estero - Plaza Principal",
+      "x": 500,
+      "y": 64,
+      "z": 500,
+      "dimension": "minecraft:overworld",
+      "color": "#8B4513",
+      "icon": "village",
+      "description": "Plaza del pueblo de Estero. Cuidado con la siesta de la tarde."
+    },
+    {
+      "id": "estero_guardian",
+      "name": "Estero - Guarida del Guardián",
+      "x": 520,
+      "y": 45,
+      "z": 530,
+      "dimension": "minecraft:overworld",
+      "color": "#8B0000",
+      "icon": "skull",
+      "description": "Cueva donde se esconde el Guardián del Azúcar."
+    },
+    {
+      "id": "tucuman_fortaleza",
+      "name": "Tucumán - Fortaleza del Guardián",
+      "x": 1000,
+      "y": 70,
+      "z": -300,
+      "dimension": "minecraft:overworld",
+      "color": "#FF69B4",
+      "icon": "village",
+      "description": "Fortaleza enana donde se encuentra el ingrediente secreto de la achilata."
+    },
+    {
+      "id": "tucuman_dulceria",
+      "name": "Tucumán - Dulcería del Maestro",
+      "x": 1015,
+      "y": 65,
+      "z": -280,
+      "dimension": "minecraft:overworld",
+      "color": "#FFD700",
+      "icon": "village",
+      "description": "Tienda del Maestro Dulce. Aquí puedes obtener información sobre la achilata."
+    },
+    {
+      "id": "cordoba_universidad",
+      "name": "Córdoba - Universidad",
+      "x": -800,
+      "y": 72,
+      "z": 600,
+      "dimension": "minecraft:overworld",
+      "color": "#4169E1",
+      "icon": "village",
+      "description": "Universidad de Córdoba. El Gringo busca el café legendario."
+    },
+    {
+      "id": "cordoba_cafeteria",
+      "name": "Córdoba - Ruinas de la Cafetería",
+      "x": -820,
+      "y": 50,
+      "z": 620,
+      "dimension": "minecraft:overworld",
+      "color": "#8B4513",
+      "icon": "skull",
+      "description": "Ruinas donde se encuentra el café legendario. Cuidado con los estudiantes fantasma."
+    },
+    {
+      "id": "rosario_docks",
+      "name": "Rosario - Docks",
+      "x": 300,
+      "y": 62,
+      "z": -700,
+      "dimension": "minecraft:overworld",
+      "color": "#228B22",
+      "icon": "village",
+      "description": "Docks de Rosario. Aquí se esconde el Rosarino Rebelde de Pelo Rojo."
+    },
+    {
+      "id": "rosario_estadio",
+      "name": "Rosario - Estadio",
+      "x": 310,
+      "y": 65,
+      "z": -720,
+      "dimension": "minecraft:overworld",
+      "color": "#FF4500",
+      "icon": "village",
+      "description": "Estadio de fútbol. Cuidado con las hinchadas peleándose."
+    },
+    {
+      "id": "mouser_guarida",
+      "name": "Guarida de MOUSER",
+      "x": 1500,
+      "y": 40,
+      "z": 1500,
+      "dimension": "minecraft:overworld",
+      "color": "#800080",
+      "icon": "skull",
+      "description": "Guarida del Ratón Gigante. Aquí se encuentra la Nube Dorada."
+    },
+    {
+      "id": "batalla_final",
+      "name": "Batalla Final - Obelisco",
+      "x": 0,
+      "y": 80,
+      "z": 0,
+      "dimension": "minecraft:overworld",
+      "color": "#FFD700",
+      "icon": "skull",
+      "description": "Ubicación de la batalla final contra MOUSER."
+    },
+    {
+      "id": "refugio_consejo",
+      "name": "Refugio - Sala del Consejo",
+      "x": 5,
+      "y": 66,
+      "z": 5,
+      "dimension": "minecraft:overworld",
+      "color": "#C0C0C0",
+      "icon": "village",
+      "description": "Sala donde se reúne el Consejo de los Antiguos."
+    },
+    {
+      "id": "refugio_herreria",
+      "name": "Refugio - Herrería",
+      "x": -10,
+      "y": 64,
+      "z": 15,
+      "dimension": "minecraft:overworld",
+      "color": "#A0522D",
+      "icon": "village",
+      "description": "Herrería donde puedes forjar la Lanza del Alba."
+    },
+    {
+      "id": "bosque_lamentos",
+      "name": "Bosque de los Lamentos",
+      "x": -400,
+      "y": 68,
+      "z": -400,
+      "dimension": "minecraft:overworld",
+      "color": "#006400",
+      "icon": "skull",
+      "description": "Bosque maldito donde se encuentra el Segundo Sello."
+    },
+    {
+      "id": "cripta_rey",
+      "name": "Cripta del Rey Muerto",
+      "x": 700,
+      "y": 30,
+      "z": 700,
+      "dimension": "minecraft:overworld",
+      "color": "#2F4F4F",
+      "icon": "skull",
+      "description": "Cripta donde duerme el Rey Muerto. Tercer Sello."
+    },
+    {
+      "id": "fortaleza_vacio",
+      "name": "Fortaleza del Vacío",
+      "x": -1200,
+      "y": 50,
+      "z": -1200,
+      "dimension": "minecraft:overworld",
+      "color": "#191970",
+      "icon": "skull",
+      "description": "Fortaleza del Señor del Vacío. Cuarto Sello."
+    }
+  ]
+}

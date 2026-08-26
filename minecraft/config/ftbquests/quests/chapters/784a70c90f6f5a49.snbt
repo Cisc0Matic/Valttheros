@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "784a70c90f6f5a49"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "784A70C90F6F5A49"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39D3325D6EF799B5"
+			rewards: [
+				{
+					id: "5786281726C24FFC"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "45F0D746BF1F3814"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5A2BA8CF039F82D4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "253CF21A8B454F15"
+				item: { count: 1, id: "minecraft:apple" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5EB9A3EBC05AB831"
+			rewards: [
+				{
+					id: "7D399135EBD3F2C6"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "6174D9EA7D7CDBAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "0981F6BFC8AD5491"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2E234F1C155C0CFE"
+			rewards: [
+				{
+					count: 3
+					id: "0FEF0FA8C21D1DD0"
+					item: {
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					id: "742A64260395664E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "7A429C5035FC388A"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "4E200D98D744C82E"
+			rewards: [
+				{
+					count: 2
+					id: "44535ED251423600"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4A263A780D1E5A1A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "7EAED5F901F58CD7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "62003F0BE7ADF013"
+				type: "kill"
+				value: 0L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "69DC4AC10D761E46"
+			rewards: [
+				{
+					id: "4393B5777C845343"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "29BB299548E07AF6"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "3EF923F6759C8E79"
+				type: "kill"
+				value: 0L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "72682EFDDA4DC4DD"
+			rewards: [
+				{
+					count: 10
+					id: "761F43A3DB73168F"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "4F557C22B6A1F7D6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "62F96D2F4CB1ADCA"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "664B814B12D49BE1"
+			rewards: [
+				{
+					id: "7DCF0AF3CA758C25"
+					item: {
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "00AD75FE689B2A97"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "57E18A7C57D7B675"
+				type: "kill"
+				value: 0L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "492CCC1F06CB4444"
+			rewards: [
+				{
+					count: 4
+					id: "5B081F2543611C05"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D5E64A3CB90E2AC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "4656CD348BDCFFF8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "06671D1B3A388C45"
+				type: "kill"
+				value: 0L
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+}
