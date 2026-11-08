@@ -1,0 +1,2 @@
+advancement revoke @s only valttheros:interact_guardia_commander
+dialog show npc_guardia_commander

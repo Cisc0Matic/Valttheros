@@ -1,0 +1,14 @@
+{
+    "placement":  {
+                      "salt":  34711982,
+                      "spacing":  12,
+                      "type":  "minecraft:random_spread",
+                      "separation":  6
+                  },
+    "structures":  [
+                       {
+                           "structure":  "valttheros:community_settlements",
+                           "weight":  1
+                       }
+                   ]
+}

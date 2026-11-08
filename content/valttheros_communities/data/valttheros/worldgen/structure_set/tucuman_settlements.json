@@ -1,0 +1,14 @@
+{
+    "placement":  {
+                      "salt":  34712683,
+                      "spacing":  12,
+                      "type":  "minecraft:random_spread",
+                      "separation":  6
+                  },
+    "structures":  [
+                       {
+                           "structure":  "valttheros:tucuman_settlements",
+                           "weight":  1
+                       }
+                   ]
+}

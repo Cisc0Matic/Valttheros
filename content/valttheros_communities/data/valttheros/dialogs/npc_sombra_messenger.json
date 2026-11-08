@@ -1,0 +1,12 @@
+{
+  "title": "Mensajero Enmascarado",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Mensajero Enmascarado",
+      "text": "Llevo mensajes que nadie mas se atreve a llevar. Mi mascara guarda mas secretos de los que imaginas."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "replace":  false,
+    "values":  [
+                   "biomesoplenty:pasture",
+                   "biomesoplenty:grassland",
+                   "biomesoplenty:dryland",
+                   "biomesoplenty:lush_savanna",
+                   "minecraft:savanna",
+                   "minecraft:windswept_savanna"
+               ]
+}

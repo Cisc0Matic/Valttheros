@@ -1,0 +1,12 @@
+{
+  "title": "La Sombra",
+  "description": "Encuentro con La Sombra de Cordoba",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "El Innombrable",
+      "text": "No pronuncies mi nombre. Aqui, entre las sombras de La Docta, tejemos designios que ni los propios Sabios imaginan."
+    }
+  ]
+}

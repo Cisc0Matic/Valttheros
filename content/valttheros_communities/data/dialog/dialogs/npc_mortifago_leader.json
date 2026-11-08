@@ -1,0 +1,21 @@
+{
+    "title":  "El Capitan Muerto",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "El Capitan Muerto",
+                        "text":  "El rio me reclamo hace tiempo. Ahora yo reclamo a quienes se atreven a navegarlo de noche.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "mortifago_leader.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_mortifago_leader"
+}

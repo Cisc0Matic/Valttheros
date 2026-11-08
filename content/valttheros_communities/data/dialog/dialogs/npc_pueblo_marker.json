@@ -1,0 +1,21 @@
+{
+    "title":  "Pueblo Valttheros",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Pueblo Valttheros",
+                        "text":  "Bienvenido a Puerto Valttheros. Aca comienza tu viaje por las nueve provincias de Valttheros.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "agricultor_young.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_pueblo_marker"
+}

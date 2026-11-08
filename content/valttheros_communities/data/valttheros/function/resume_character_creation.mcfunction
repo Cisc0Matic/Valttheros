@@ -1,0 +1,3 @@
+function valttheros:grant_intro_grace
+tag @s add valttheros_character_prompted
+dialog show character_creation

@@ -1,0 +1,8 @@
+{
+  "title": "Colono",
+  "description": "Colono de MineColonies",
+  "start": "start",
+  "entries": [
+    { "id": "start", "speaker": "Colono", "text": "Esta colonia crece cada dia gracias al trabajo de todos. Bienvenido, viajero." }
+  ]
+}

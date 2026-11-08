@@ -1,0 +1,12 @@
+{
+  "title": "Tribu Barakoa",
+  "description": "Encuentro con la Tribu Barakoa en el Estero",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Tata Fawna",
+      "text": "Bienvenido, viajero. Los espiritus del estero te han guiado hasta nosotros. Aqui protegemos las tradiciones de los ancestros Barakoa."
+    }
+  ]
+}

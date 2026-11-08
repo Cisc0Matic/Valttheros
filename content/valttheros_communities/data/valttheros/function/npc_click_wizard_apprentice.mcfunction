@@ -1,0 +1,2 @@
+advancement revoke @s only valttheros:interact_wizard_apprentice
+dialog show npc_wizard_apprentice

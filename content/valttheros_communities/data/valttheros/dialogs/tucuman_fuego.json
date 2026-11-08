@@ -1,0 +1,12 @@
+{
+  "title": "Fuego Interior",
+  "description": "Encuentro con la secta del Fuego Interior",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Sumo Sacerdote Ignes",
+      "text": "El fuego que arde en estas tierras no es natural. Nosotros lo custodiamos. Pocos forasteros llegan hasta aqui... menos aun se van."
+    }
+  ]
+}

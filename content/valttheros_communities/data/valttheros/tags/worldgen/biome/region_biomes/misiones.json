@@ -1,0 +1,12 @@
+{
+    "replace":  false,
+    "values":  [
+                   "biomesoplenty:rainforest",
+                   "biomesoplenty:rocky_rainforest",
+                   "biomesoplenty:tropics",
+                   "biomesoplenty:fungal_jungle",
+                   "biomesoplenty:undergrowth",
+                   "minecraft:jungle",
+                   "minecraft:bamboo_jungle"
+               ]
+}

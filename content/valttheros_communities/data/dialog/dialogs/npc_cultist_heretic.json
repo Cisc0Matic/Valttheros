@@ -1,0 +1,21 @@
+{
+    "title":  "Acolito del Fuego",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Acolito del Fuego",
+                        "text":  "Aun soy nuevo en el culto, pero ya siento el poder de la llama corriendo por mis venas.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "cultist_warlock.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_cultist_heretic"
+}

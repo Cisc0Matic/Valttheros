@@ -1,0 +1,15 @@
+{
+    "criteria":  {
+                     "req":  {
+                                 "trigger":  "minecraft:player_interacted_with_entity",
+                                 "conditions":  {
+                                                    "entity":  {
+                                                                   "nbt":  "{Tags:[\"pueblo_marker\"]}"
+                                                               }
+                                                }
+                             }
+                 },
+    "rewards":  {
+                    "function":  "valttheros:npc_click_pueblo_marker"
+                }
+}

@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sabios_docta"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "451C7AC0CA142E0B"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1FA239C61EB545D9"
+			rewards: [
+				{
+					id: "37AF5EAB9FA8E6D2"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:fortune": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "2AADD89057A559D3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "5A5FE3CD3D793FE0"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "33630A6089BC23CE"
+			rewards: [
+				{
+					id: "76B1BD3DF4F946A0"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"aqua\",\"italic\":false,\"text\":\"Estrella de La Docta\"}"
+						}
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "20F12926482263F2"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "7A1DD3AB43309BF8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "052F47FB8B916A6E"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "77D2BE791A1E1226"
+			rewards: [
+				{
+					id: "671627BB3A43635B"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"aqua\",\"italic\":false,\"text\":\"Libro de La Docta\"}"
+						}
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "77446C905DC65D01"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "4E13F6DB88D35092"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5C893978F9ED1571"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

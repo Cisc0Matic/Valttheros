@@ -1,0 +1,23 @@
+{
+    "elements":  [
+                     {
+                         "weight":  1,
+                         "element":  {
+                                         "projection":  "rigid",
+                                         "processors":  "minecraft:empty",
+                                         "location":  "valttheros:settlements/sabios",
+                                         "element_type":  "minecraft:single_pool_element"
+                                     }
+                     },
+                     {
+                         "weight":  1,
+                         "element":  {
+                                         "projection":  "rigid",
+                                         "processors":  "minecraft:empty",
+                                         "location":  "valttheros:settlements/sombra",
+                                         "element_type":  "minecraft:single_pool_element"
+                                     }
+                     }
+                 ],
+    "fallback":  "minecraft:empty"
+}

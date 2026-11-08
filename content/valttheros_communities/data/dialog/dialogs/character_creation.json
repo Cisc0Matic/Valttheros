@@ -1,0 +1,93 @@
+{
+    "id":  "character_creation",
+    "title":  "Tu nombre en Valttheros",
+    "description":  "Elige un linaje; tu afinidad elemental despertara despues.",
+    "start":  "intro",
+    "entries":  [
+                    {
+                        "id":  "intro",
+                        "speaker":  {
+                                        "text":  "La Voz del Estero",
+                                        "color":  "gold",
+                                        "bold":  true
+                                    },
+                        "text":  [
+                                     {
+                                         "text":  "Antes de cruzar el umbral, elige el linaje que llevara tu historia. No son razas clasicas: son pueblos marcados por este mundo."
+                                     }
+                                 ],
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_seer.png",
+                                              "position":  "LEFT",
+                                              "brightness":  0.7
+                                          }
+                                      ],
+                        "options":  [
+                                        {
+                                            "text":  {
+                                                         "text":  "Nacar — nacido entre rios; respira bajo el agua.",
+                                                         "color":  "aqua"
+                                                     },
+                                            "target":  "awakening",
+                                            "command":  [
+                                                            "function valttheros:character_nacar"
+                                                        ]
+                                        },
+                                        {
+                                            "text":  {
+                                                         "text":  "Pedraluz — templado por la sierra; resiste el peligro.",
+                                                         "color":  "gray"
+                                                     },
+                                            "target":  "awakening",
+                                            "command":  [
+                                                            "function valttheros:character_pedraluz"
+                                                        ]
+                                        },
+                                        {
+                                            "text":  {
+                                                         "text":  "Silvano — criado bajo el dosel; ve en la oscuridad.",
+                                                         "color":  "green"
+                                                     },
+                                            "target":  "awakening",
+                                            "command":  [
+                                                            "function valttheros:character_silvano"
+                                                        ]
+                                        }
+                                    ]
+                    },
+                    {
+                        "id":  "awakening",
+                        "speaker":  {
+                                        "text":  "La Voz del Estero",
+                                        "color":  "gold",
+                                        "bold":  true
+                                    },
+                        "text":  [
+                                     {
+                                         "text":  "Tu linaje ya esta escrito. Ahora, una fuerza impredecible se enlaza contigo..."
+                                     }
+                                 ],
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_seer.png",
+                                              "position":  "LEFT",
+                                              "brightness":  1.0
+                                          }
+                                      ],
+                        "next":  "end"
+                    },
+                    {
+                        "id":  "end",
+                        "speaker":  {
+                                        "text":  "Cronista",
+                                        "color":  "yellow"
+                                    },
+                        "text":  [
+                                     {
+                                         "text":  "La aldea de inicio te espera. Habla con sus habitantes y abre el libro de misiones."
+                                     }
+                                 ]
+                    }
+                ]
+}

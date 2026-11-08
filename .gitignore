@@ -26,3 +26,14 @@ minecraft/xaero/
 # Temp
 *.tmp
 *.log
+
+dist/
+
+# Local multiplayer and UI state
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/servers.essential.dat
+minecraft/screenshots/
+minecraft/server-resource-packs/
+minecraft/usercache.json
+minecraft/usernamecache.json

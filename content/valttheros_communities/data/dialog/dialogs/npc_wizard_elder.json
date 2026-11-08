@@ -1,0 +1,21 @@
+{
+    "title":  "Maestro Zenon",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Maestro Zenon",
+                        "text":  "La magia arcana de La Docta se estudia por generaciones. Pocos alcanzan la maestria que ves en mi.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "sabio_elder.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_wizard_elder"
+}

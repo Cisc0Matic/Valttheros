@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Libro de La Docta",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ],
+          "components": {
+            "minecraft:stored_enchantments": {
+              "levels": {
+                "minecraft:fortune": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Cafe de La Docta",
+                "color": "dark_red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

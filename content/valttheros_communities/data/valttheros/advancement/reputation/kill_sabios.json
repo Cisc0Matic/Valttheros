@@ -1,0 +1,15 @@
+{
+    "criteria":  {
+                     "kill":  {
+                                  "trigger":  "minecraft:player_killed_entity",
+                                  "conditions":  {
+                                                     "entity":  {
+                                                                    "nbt":  "{Tags:[\"community_sabios\"]}"
+                                                                }
+                                                 }
+                              }
+                 },
+    "rewards":  {
+                    "function":  "valttheros:reputation_loss_sabios"
+                }
+}

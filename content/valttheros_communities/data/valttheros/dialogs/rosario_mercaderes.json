@@ -1,0 +1,12 @@
+{
+  "title": "Mercaderes del Rio",
+  "description": "Encuentro con los mercaderes de Rosario",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Capitan Duarte",
+      "text": "¡Bienvenido a los docks de Rosario! Aqui todo se compra y se vende. Si tenes algo de valor, este es tu lugar."
+    }
+  ]
+}

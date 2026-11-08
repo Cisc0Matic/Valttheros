@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "req": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          
+          "nbt": "{Tags:[\"wizard_elder\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "valttheros:npc_click_wizard_elder"
+  }
+}
+

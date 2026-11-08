@@ -1,0 +1,12 @@
+{
+  "title": "Acolito del Fuego",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Acolito del Fuego",
+      "text": "Aun soy nuevo en el culto, pero ya siento el poder de la llama corriendo por mis venas."
+    }
+  ]
+}

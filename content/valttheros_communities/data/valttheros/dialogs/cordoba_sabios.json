@@ -1,0 +1,12 @@
+{
+  "title": "Sabios de La Docta",
+  "description": "Encuentro con los Sabios de Cordoba",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Maestro Zenon",
+      "text": "Bienvenido a La Docta, cuna del conocimiento. Aqui estudiamos las artes arcanas desde generaciones. ¿Buscas aprender, viajero?"
+    }
+  ]
+}

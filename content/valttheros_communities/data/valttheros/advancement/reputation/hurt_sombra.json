@@ -1,0 +1,15 @@
+{
+    "criteria":  {
+                     "hurt":  {
+                                  "trigger":  "minecraft:player_hurt_entity",
+                                  "conditions":  {
+                                                     "entity":  {
+                                                                    "nbt":  "{Tags:[\"community_sombra\"]}"
+                                                                }
+                                                 }
+                              }
+                 },
+    "rewards":  {
+                    "function":  "valttheros:reputation_loss_sombra"
+                }
+}

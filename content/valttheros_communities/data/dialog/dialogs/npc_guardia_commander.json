@@ -1,0 +1,21 @@
+{
+    "title":  "Comandante Vael",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Comandante Vael",
+                        "text":  "Buenos Aires esta bajo mi proteccion. Comportate y no tendremos problemas, viajero.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "guardia_commander.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_guardia_commander"
+}

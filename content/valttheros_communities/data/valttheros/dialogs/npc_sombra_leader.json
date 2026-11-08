@@ -1,0 +1,12 @@
+{
+  "title": "El Innombrable",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "El Innombrable",
+      "text": "No pronuncies mi nombre. Cordoba tiene dos caras, la que ves de dia, y la que sirvo yo."
+    }
+  ]
+}

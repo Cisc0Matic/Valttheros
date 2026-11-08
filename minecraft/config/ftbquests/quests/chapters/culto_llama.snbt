@@ -4,37 +4,39 @@
 	filename: "culto_llama"
 	group: "485E071B353FF153"
 	icon: {
-		id: "goety:crying_obsidian_shard"
+		components: {
+			"ftbquests:missing_item": "goety:crying_obsidian_shard"
+		}
+		id: "ftbquests:missing_item"
 	}
-	id: "C2B3A4D5E6F70001"
+	id: "50F8C1763B4671ED"
 	images: [ ]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			id: "C2B3A4D5E6F70101"
-			title: "Infiltracion"
-			description: "Necesitas infiltrarte en el Culto de la Llama. Consigue un libro escribible para pasar como acolito."
+			id: "10D54C207ED5BB4B"
 			rewards: [
 				{
-					id: "C2B3A4D5E6F70102"
+					id: "548B64F970894B2E"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Golpe de Fuego\"}"
+						}
 						count: 1
 						id: "minecraft:fire_charge"
-						tag: '{display:{Name:'{"text":"Golpe de Fuego","color":"dark_purple","italic":false}"}}'
 					}
 					type: "item"
 				}
 				{
-					id: "C2B3A4D5E6F70103"
+					id: "403DBCACB76577AB"
 					type: "xp"
 					xp: 75
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 1L
-				id: "C2B3A4D5E6F70104"
+				id: "1174227DEE5C5B12"
 				item: { count: 1, id: "minecraft:writable_book" }
 				type: "item"
 			}]
@@ -42,37 +44,39 @@
 			y: 0.0d
 		}
 		{
-			id: "C2B3A4D5E6F70201"
-			title: "Robar el Tomo"
-			description: "El Tomo Infernal contiene los secretos del culto. Recuperalo de las ruinas antes de que destruyan las pruebas."
+			id: "5FB66EB1A56B8EF1"
 			rewards: [
 				{
-					id: "C2B3A4D5E6F70202"
+					id: "6585076C648FEFB3"
 					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
 						count: 1
 						id: "minecraft:potion"
-						tag: '{Potion:"fire_resistance"}'
 					}
 					type: "item"
 				}
 				{
-					id: "C2B3A4D5E6F70203"
+					count: 3
+					id: "51524C5176208F56"
 					item: {
-						count: 3
+						count: 1
 						id: "minecraft:crying_obsidian"
 					}
 					type: "item"
 				}
 				{
-					id: "C2B3A4D5E6F70204"
+					id: "2E245FB245C917A3"
 					type: "xp"
 					xp: 150
 				}
 			]
 			tasks: [{
 				consume_items: false
-				count: 1L
-				id: "C2B3A4D5E6F70205"
+				id: "194BA0706D05B9EF"
 				item: { count: 1, id: "minecraft:enchanted_book" }
 				type: "item"
 			}]
@@ -80,22 +84,22 @@
 			y: 0.0d
 		}
 		{
-			id: "C2B3A4D5E6F70301"
-			title: "Fin del Culto"
-			description: "El Heresiarch es el lider del culto. Derrotalo para poner fin a la amenaza oscura en Estero."
+			id: "50E3F96822DC58AE"
 			rewards: [
 				{
-					id: "C2B3A4D5E6F70302"
+					id: "76E468CAADCD69FC"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_red\",\"italic\":false,\"text\":\"Extinguidor de Llamas\"}"
+						}
 						count: 1
 						id: "minecraft:netherite_sword"
-						tag: '{display:{Name:'{"text":"Extinguidor de Llamas","color":"dark_red","italic":false}"}}'
 					}
 					type: "item"
 				}
 				{
-					id: "C2B3A4D5E6F70303"
 					count: 3
+					id: "76AE60130C51456F"
 					item: {
 						count: 1
 						id: "minecraft:enchanted_golden_apple"
@@ -103,14 +107,14 @@
 					type: "item"
 				}
 				{
-					id: "C2B3A4D5E6F70304"
+					id: "7F78C4126FB15A64"
 					type: "xp"
 					xp: 500
 				}
 			]
 			tasks: [{
 				entity: "goety:heresiarch"
-				id: "C2B3A4D5E6F70305"
+				id: "5FE68347E50AB04E"
 				type: "kill"
 				value: 0L
 			}]

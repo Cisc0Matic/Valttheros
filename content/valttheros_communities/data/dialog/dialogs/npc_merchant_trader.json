@@ -1,0 +1,21 @@
+{
+    "title":  "Mercader Nunez",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Mercader Nunez",
+                        "text":  "Herramientas, forjado fino, lo que necesites. Rosario tiene los mejores artesanos del rio.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "mercader_captain.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_merchant_trader"
+}

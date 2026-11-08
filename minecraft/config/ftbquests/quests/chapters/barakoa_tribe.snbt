@@ -4,36 +4,39 @@
 	filename: "barakoa_tribe"
 	group: "485E071B353FF153"
 	icon: {
-		id: "mowziesmobs:barakoa_mask_fawn"
+		id: "mowziesmobs:umvuthana_mask_fury"
 	}
-	id: "B1A2C3D4E5F60001"
+	id: "470F6A4D0A527F95"
 	images: [ ]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			id: "B1A2C3D4E5F60101"
-			title: "El Primer Honor"
-			description: "La Tribu Barakoa te pone a prueba. Elimina a los muertos que deambulan cerca de la Guarida del Guardian para demostrar tu valor."
+			id: "0AF320AB58EC9A24"
 			rewards: [
 				{
-					id: "B1A2C3D4E5F60102"
+					id: "71AA064BD5CB7994"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Mascara Basica\"}"
+							"minecraft:dyed_color": {
+								rgb: 8606770
+							}
+						}
 						count: 1
 						id: "minecraft:leather_helmet"
-						tag: '{display:{Name:'{"text":"Mascara Basica","color":"gold","italic":false}',Color:8606770}}'
 					}
 					type: "item"
 				}
 				{
-					id: "B1A2C3D4E5F60103"
+					id: "4347655E2607354D"
 					type: "xp"
 					xp: 100
 				}
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
-				id: "B1A2C3D4E5F60104"
+				id: "00BB179E699E2327"
 				type: "kill"
 				value: 5L
 			}]
@@ -41,83 +44,88 @@
 			y: 0.0d
 		}
 		{
-			id: "B1A2C3D4E5F60201"
-			title: "La Mascara Sagrada"
-			description: "Tata Fawna necesita materiales sagrados para crear la Mascara de la Tribu. Consigue oro y arena del alma."
+			id: "13BF99F9DC76CCE9"
 			rewards: [
 				{
-					id: "B1A2C3D4E5F60202"
+					id: "3077C45E8724B780"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Tunica Tribal\"}"
+							"minecraft:dyed_color": {
+								rgb: 5145144
+							}
+						}
 						count: 1
 						id: "minecraft:leather_chestplate"
-						tag: '{display:{Name:'{"text":"Tunica Tribal","color":"gold","italic":false}',Color:5145144}}'
 					}
 					type: "item"
 				}
 				{
-					id: "B1A2C3D4E5F60203"
+					id: "0F852FBE705D01BA"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Lanza Tribal\"}"
+						}
 						count: 1
 						id: "minecraft:iron_sword"
-						tag: '{display:{Name:'{"text":"Lanza Tribal","color":"gold","italic":false}"}}'
 					}
 					type: "item"
 				}
 				{
-					id: "B1A2C3D4E5F60204"
+					id: "6275092C4A889E44"
 					type: "xp"
 					xp: 200
 				}
 			]
-			tasks: [{
-				consume_items: false
-				count: 1L
-				id: "B1A2C3D4E5F60205"
-				item: { count: 1, id: "minecraft:gold_block" }
-				type: "item"
-			}
-			{
-				consume_items: false
-				count: 1L
-				id: "B1A2C3D4E5F60206"
-				item: { count: 1, id: "minecraft:soul_sand" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "08DD350628D9474F"
+					item: { count: 1, id: "minecraft:gold_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5627010AE0FA988D"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			id: "B1A2C3D4E5F60301"
-			title: "Alianza de Sangre"
-			description: "Los cultistas de la Llama amenazan la tribu. Elimina a 10 de sus secuaces para sellar la alianza."
+			id: "2320FA994BB5BD5D"
 			rewards: [
 				{
-					id: "B1A2C3D4E5F60302"
+					id: "2F355D4FC58EFF82"
 					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Escudo Barakoa\"}"
+						}
 						count: 1
 						id: "minecraft:shield"
-						tag: '{display:{Name:'{"text":"Escudo Barakoa","color":"gold","italic":false}"}}'
 					}
 					type: "item"
 				}
 				{
-					id: "B1A2C3D4E5F60303"
 					count: 10
+					id: "708B03EA94EAACA7"
 					item: {
-						count: 1,
+						count: 1
 						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
 				{
-					id: "B1A2C3D4E5F60304"
+					id: "5B38E7CA0B9B1EEC"
 					type: "xp"
 					xp: 350
 				}
 			]
 			tasks: [{
 				entity: "goety:warlock"
-				id: "B1A2C3D4E5F60305"
+				id: "380FE0C0AF490FDB"
 				type: "kill"
 				value: 10L
 			}]

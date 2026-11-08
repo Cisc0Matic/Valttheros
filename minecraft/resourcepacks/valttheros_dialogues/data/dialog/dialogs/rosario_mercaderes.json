@@ -1,0 +1,139 @@
+{
+  "id": "rosario_mercaderes",
+  "title": "Mercaderes del Rio",
+  "description": "Encuentro con los Mercaderes del Rio en los docks de Rosario",
+  "start": "arrival",
+  "entries": [
+    {
+      "id": "arrival",
+      "speaker": {"text": "Capitan Duarte", "color": "yellow", "bold": true},
+      "text": [
+        {"text": "Che, para el barco! ", "color": "yellow"},
+        {"text": "Quien sos vos que te subis asi nomas?", "color": "green"},
+        {"text": "Estos son los Docks del Parana. Hace lo que te diga o afuera.", "color": "dark_green"}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Necesito trabajo en los docks", "color": "green"},
+          "target": "work_docks"
+        },
+        {
+          "text": {"text": "Quiero comerciar con ustedes", "color": "yellow"},
+          "target": "trade_docks"
+        },
+        {
+          "text": {"text": "Tengo un barco propio", "color": "aqua"},
+          "target": "own_boat"
+        }
+      ]
+    },
+    {
+      "id": "work_docks",
+      "speaker": {"text": "Capitan Duarte", "color": "yellow"},
+      "text": [
+        {"text": "Trabajo? ", "color": "yellow"},
+        {"text": "Bueno, hay peces para traer y cuero para curtir. ", "color": "green"},
+        {"text": "Trae 16 peces y 8 cueros y te doy una recompensa.", "color": "yellow"}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto el trabajo", "color": "green", "bold": true},
+          "target": "fish_quest",
+          "command": ["tag @s add mercader_quest_fish", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"yellow\"},{\"text\":\"MISION: Trae 16 peces + 8 cueros a los Docks de Rosario\",\"color\":\"green\"}]"]
+        },
+        {
+          "text": {"text": "Es mucho trabajo... me retiro", "color": "gray"},
+          "target": "retreat_docks"
+        }
+      ]
+    },
+    {
+      "id": "trade_docks",
+      "speaker": {"text": "Capitan Duarte", "color": "yellow"},
+      "text": [
+        {"text": "Comerciar? ", "color": "yellow"},
+        {"text": "Bien pensado. El Parana tiene todo lo que el mundo necesita.", "color": "green"},
+        {"text": "Pero primero, demostra que sos de confianza.", "color": "dark_green"}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "fish_quest"
+    },
+    {
+      "id": "own_boat",
+      "speaker": {"text": "Mercader Nunez", "color": "aqua"},
+      "text": [
+        {"text": "Un barco propio? ", "color": "aqua"},
+        {"text": "Jaja! Aca somos todos piratas o comerciantes. ", "color": "yellow"},
+        {"text": "El rio es el unico amigo que tenes.", "color": "green"}
+      ],
+      "portraits": [
+        {"path": "mercader_apprentice.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "fish_quest"
+    },
+    {
+      "id": "fish_quest",
+      "speaker": {"text": "Capitan Duarte", "color": "yellow", "bold": true},
+      "text": [
+        {"text": "Escucha, pibe. ", "color": "yellow"},
+        {"text": "El rio esta lleno de bichos. Trae 16 peces y 8 cueros y te pago bien.", "color": "green"},
+        {"text": "Y cuidado con los piratas del sur.", "color": "dark_green"}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto el trabajo", "color": "green", "bold": true},
+          "target": "quest_confirmed",
+          "command": ["tag @s add mercader_quest_fish", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"yellow\"},{\"text\":\"MISION: Trae 16 peces + 8 cueros a los Docks de Rosario\",\"color\":\"green\"}]"]
+        },
+        {
+          "text": {"text": "No es lo mio", "color": "gray"},
+          "target": "retreat_docks"
+        }
+      ]
+    },
+    {
+      "id": "quest_confirmed",
+      "speaker": {"text": "Mercader Nunez", "color": "yellow"},
+      "text": [
+        {"text": "Dale, dale! ", "color": "yellow"},
+        {"text": "El capitan te espera con mate y fernet.", "color": "green"}
+      ],
+      "portraits": [
+        {"path": "mercader_apprentice.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "retreat_docks",
+      "speaker": {"text": "Capitan Duarte", "color": "dark_green", "bold": true},
+      "text": [
+        {"text": "Que lastima... ", "color": "gray"},
+        {"text": "El Parana no espera a los cobardes. Andate nomas.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "El sonido de las olas del Parana y los gritos de los mercaderes llenan los docks..."}
+      ],
+      "portraits": [
+        {"path": "mercader_captain.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

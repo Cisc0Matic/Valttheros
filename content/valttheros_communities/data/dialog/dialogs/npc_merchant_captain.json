@@ -1,0 +1,21 @@
+{
+    "title":  "Capitan Duarte",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Capitan Duarte",
+                        "text":  "Controlo estos docks hace anos. Si buscas mercancia, tengo contactos en las nueve provincias.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "mercader_captain.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_merchant_captain"
+}

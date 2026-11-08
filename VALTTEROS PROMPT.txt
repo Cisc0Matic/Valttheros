@@ -1,0 +1,18 @@
+﻿OBJETIVO DE PRODUCTO — VALTTHEROS
+
+Convierte esta instancia de Minecraft en un modpack RPG de fantasía, profesional, completo y completamente personalizado. La ambientación es una Argentina alternativa con seis regiones: Estero, Tucumán, Córdoba, Rosario, Buenos Aires y Misiones.
+
+El mundo debe sentirse habitado y reconocible. Cada región necesita arquitectura, paisajes, recursos, amenazas y cultura propios. Incluye comunidades y civilizaciones distintas, con líderes, trabajadores, comerciantes, guardias y aprendices; que sus habitantes tengan nombre, apariencia, objetivos y conversaciones al interactuar con el jugador.
+
+La historia principal debe guiar la aventura y conectarse con capítulos regionales, encargos de facción, recompensas y decisiones con consecuencias. Los asentamientos de las comunidades deben aparecer durante la generación de chunks nuevos, además de los puntos de interés fijos de la historia. Los pueblos han de combinar edificios, plazas, caminos, actividades y habitantes de su comunidad, respetando biomas y terreno.
+
+Usa como base el perfil existente: Minecraft 1.21.1, NeoForge 21.1.248, Java 21, Prism Launcher, FTB Quests, VNDialog y los mods de exploración, estructura, magia, combate y criaturas que ya están instalados. Conserva la identidad visual Valttheros, sus retratos, waypoints, misiones y trabajo previo que sea compatible.
+
+Criterios de calidad:
+- No marques una función como terminada hasta que esté integrada y comprobada en un mundo nuevo.
+- Distingue entre asentamientos ubicados en coordenadas concretas y pueblos que se generan naturalmente.
+- Vincula las conversaciones con las misiones y evita objetivos que contradigan el relato.
+- Mantén la instalación reproducible, documentada y libre de mundos guardados, cuentas, cachés y respaldos al exportarla.
+- Respeta dependencias y licencias de los mods.
+
+La meta final es que una persona pueda importar el modpack, crear un mundo, encontrar comunidades vivas durante la exploración, hablar con sus habitantes y seguir una campaña propia sin instrucciones del desarrollador.

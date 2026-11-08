@@ -1,0 +1,14 @@
+{
+    "placement":  {
+                      "salt":  34714085,
+                      "spacing":  12,
+                      "type":  "minecraft:random_spread",
+                      "separation":  6
+                  },
+    "structures":  [
+                       {
+                           "structure":  "valttheros:rosario_settlements",
+                           "weight":  1
+                       }
+                   ]
+}

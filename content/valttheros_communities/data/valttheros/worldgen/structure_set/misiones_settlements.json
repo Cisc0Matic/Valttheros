@@ -1,0 +1,14 @@
+{
+    "placement":  {
+                      "salt":  34715487,
+                      "spacing":  12,
+                      "type":  "minecraft:random_spread",
+                      "separation":  6
+                  },
+    "structures":  [
+                       {
+                           "structure":  "valttheros:misiones_settlements",
+                           "weight":  1
+                       }
+                   ]
+}

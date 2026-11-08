@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "req": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": { "entity": {  "nbt": "{Tags:[\"umvuthana_guard\"]}" } }
+    }
+  },
+  "rewards": { "function": "valttheros:npc_click_umvuthana_guard" }
+}
+

@@ -1,0 +1,38 @@
+{
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:iron_chestplate"
+                             },
+                    "title":  {
+                                  "text":  "Defensor de Buenos Aires",
+                                  "color":  "white"
+                              },
+                    "description":  {
+                                        "text":  "La Guardia Real te ha aceptado como defensor de Buenos Aires. La ciudad nunca caera mientras estes.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "background":  "minecraft:textures/block/iron_block.png"
+                },
+    "criteria":  {
+                     "guardia_ally":  {
+                                          "trigger":  "minecraft:tick",
+                                          "conditions":  {
+                                                             "player":  [
+                                                                            {
+                                                                                "condition":  "minecraft:entity_scores",
+                                                                                "entity":  "this",
+                                                                                "scores":  {
+                                                                                               "community":  {
+                                                                                                                 "min":  8,
+                                                                                                                 "max":  8
+                                                                                                             }
+                                                                                           }
+                                                                            }
+                                                                        ]
+                                                         }
+                                      }
+                 }
+}

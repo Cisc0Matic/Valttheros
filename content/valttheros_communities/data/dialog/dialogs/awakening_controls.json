@@ -1,0 +1,14 @@
+{
+  "id": "awakening_controls",
+  "title": "Guia del despertar",
+  "description": "Tutorial breve de controles y progresion de The Awakening.",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "La Voz del Estero",
+      "text": "Tu don elemental ya esta enlazado. Pulsa K para abrir el panel de The Awakening y ver tu poder. Con V recorres las habilidades disponibles; con R activas la seleccionada y con G usas la habilidad secundaria. Las habilidades avanzadas se desbloquean al practicar y ganar dominio. Si las teclas chocan con otro mod, cambialas en Opciones > Controles > The Awakening.",
+      "endDialog": true
+    }
+  ]
+}

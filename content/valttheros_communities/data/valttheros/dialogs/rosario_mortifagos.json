@@ -1,0 +1,12 @@
+{
+  "title": "Mortifagos",
+  "description": "Encuentro con los Mortifagos del rio",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "El Capitan Muerto",
+      "text": "El rio se lleva a los que no respetan sus aguas. Nosotros somos quienes quedan cuando la corriente termina su trabajo."
+    }
+  ]
+}

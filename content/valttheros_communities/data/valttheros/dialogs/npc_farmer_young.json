@@ -1,0 +1,12 @@
+{
+  "title": "Mecha",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Mecha",
+      "text": "Mi papa dice que algun dia esta chacra sera mia. Por ahora, junto zanahorias."
+    }
+  ]
+}

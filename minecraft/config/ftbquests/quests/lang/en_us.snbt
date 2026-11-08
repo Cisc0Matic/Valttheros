@@ -6,45 +6,18 @@
 	chapter.784A70C90F6F5A49.title: "La Nube Dorada"
 	chapter.792BAC4F90B1511C.title: "Estero Profundo"
 	chapter.A1B2C3D400000001.title: "Misiones Secundarias"
+	chapter.A6F7E8D9C0B10001.title: "La Sombra"
 	chapter.B1A2C3D4E5F60001.title: "Tribu Barakoa"
+	chapter.B7A8F9E0D1C20001.title: "Mercaderes del Rio"
 	chapter.C2B3A4D5E6F70001.title: "Culto de la Llama"
+	chapter.C8B9A0F1E2D30001.title: "Mortifagos del Rio"
+	chapter.D3C4B5A6F7E80001.title: "Agricultores del Norte"
+	chapter.D9C0B1A2F3E40001.title: "Guardia Real de Buenos Aires"
+	chapter.E4D5C6B7A8F90001.title: "Fuego Interior"
+	chapter.F5E6D7C8B9A00001.title: "Sabios de La Docta"
 	chapter_group.485E071B353FF153.title: "Valttheros"
-	quest.B1A2C3D4E5F60101.quest_desc: [
-		"La Tribu Barakoa te pone a prueba."
-		"Elimina a los muertos cerca de la Guarida del Guardian (X=520 Z=530)."
-		"Demuestra tu valor para ganarte su confianza."
-	]
-	quest.B1A2C3D4E5F60101.title: "El Primer Honor"
-	quest.B1A2C3D4E5F60201.quest_desc: [
-		"Tata Fawna necesita materiales sagrados."
-		"Consigue un bloque de oro y arena del alma."
-		"La Mascara de la Tribu te hara uno de ellos."
-	]
-	quest.B1A2C3D4E5F60201.title: "La Mascara Sagrada"
-	quest.B1A2C3D4E5F60301.quest_desc: [
-		"Los cultistas de la Llama amenazan la tribu."
-		"Elimina a 10 warlocks para sellar la alianza."
-		"La Tribu Barakoa luchara a tu lado."
-	]
-	quest.B1A2C3D4E5F60301.title: "Alianza de Sangre"
-	quest.C2B3A4D5E6F70101.quest_desc: [
-		"Necesitas infiltrarte en el Culto de la Llama."
-		"Consigue un libro escribible para pasar como acolito."
-		"Cuidado, los cultistas desconfian de todos."
-	]
-	quest.C2B3A4D5E6F70101.title: "Infiltracion"
-	quest.C2B3A4D5E6F70201.quest_desc: [
-		"El Tomo Infernal contiene los secretos del culto."
-		"Recuperalo de las ruinas antes de que destruyan las pruebas."
-		"Te servira para entender sus debilidades."
-	]
-	quest.C2B3A4D5E6F70201.title: "Robar el Tomo"
-	quest.C2B3A4D5E6F70301.quest_desc: [
-		"El Heresiarch es el lider del culto."
-		"Derrotalo para poner fin a la amenaza oscura."
-		"Es un boss dificil — prepareate bien."
-	]
-	quest.C2B3A4D5E6F70301.title: "Fin del Culto"
+	quest.01EC549ADFE3F3D7.title: "Protegamos el Rio"
+	quest.0242F60AE5A92727.title: "Ritual del Agua"
 	quest.06429BA228A3C8E9.quest_desc: [
 		"La Hinchada de River festeja en los Docks."
 		"Necesitan pan para el asado post-partido."
@@ -57,12 +30,15 @@
 		"El Rosarino Rebelde controla el puerto con mano dura."
 	]
 	quest.0790B156143D25C6.title: "Los Docks del Parana"
+	quest.08D79AAA6D698BA1.title: "Guardia de la Ciudad"
 	quest.090129638DBA1C3C.quest_desc: [
 		"La Fortaleza del Guardian custodia el norte."
 		"Ubicada en X=1000, Y=70, Z=-300."
 		"Derrota al Guardian del Azucar — un Golem de hierro — para avanzar."
 	]
 	quest.090129638DBA1C3C.title: "El Guardian del Azucar"
+	quest.0AF320AB58EC9A24.title: "El Primer Honor"
+	quest.0E9460B019119A58.title: "Ofrenda al Buen Cultivo"
 	quest.0F2DF91D51365D96.quest_desc: [
 		"Bajo la Universidad yacen las Ruinas de la Cafeteria."
 		"X=-820, Y=50, Z=620 — baja a las catacumbas."
@@ -75,6 +51,8 @@
 		"Elimina 10 zombies alrededor del area."
 	]
 	quest.108B280BD02C0597.title: "Guarida del Guardian Estero"
+	quest.10D54C207ED5BB4B.title: "Infiltracion"
+	quest.13BF99F9DC76CCE9.title: "La Mascara Sagrada"
 	quest.163AC5EC95E1AE86.quest_desc: [
 		"MOUSER el Raton Gigante aguarda en su guarida."
 		"Coordenadas: X=1500, Y=40, Z=1500 — profundo bajo tierra."
@@ -87,12 +65,15 @@
 		"Elimina a los Pillagers que tomaron el estadio."
 	]
 	quest.17A159BF5978350D.title: "River vs Boca"
+	quest.1FA239C61EB545D9.title: "Cafe de la Docta"
+	quest.22B9FAAC7BA71C39.title: "La Biblioteca Prohibida"
 	quest.230B44441D117E3D.quest_desc: [
 		"Buenos Aires es el corazon del caos."
 		"El Obelisco se alza en X=0, Y=80, Z=0."
 		"La Avenida Corrientes nunca duerme — consigue pan para el viaje."
 	]
 	quest.230B44441D117E3D.title: "La Avenida Corrientes"
+	quest.2320FA994BB5BD5D.title: "Alianza de Sangre"
 	quest.253BA882CDB0BDAE.quest_desc: [
 		"El Profesor Cordobes y El Gringo guardan el saber."
 		"Encuentra la Universidad en X=-800, Y=72, Z=600."
@@ -111,24 +92,39 @@
 		"8 rodajas de melon y te doy los secretos de La Docta."
 	]
 	quest.27FDE10666BB1B0B.title: "Che Boludo!"
+	quest.29DADEFDD4464481.title: "Ritos Prohibidos"
+	quest.2D58A3848201F709.title: "El Fuego Sagrado"
+	quest.33630A6089BC23CE.title: "Secretos de la Noche"
+	quest.36F5F8B5D8C6DC3B.title: "Los Guardianes de la Sombra"
 	quest.3AD6BFCA037F74E6.quest_desc: [
 		"El frio del norte te debilita."
 		"El Frio, habitante del Tucuman, te pide que te abrigues."
 		"Consigue armadura de hierro para resistir."
 	]
 	quest.3AD6BFCA037F74E6.title: "Tengo Frio!"
+	quest.3B133311F6ED0C45.title: "Invasores del Vacio"
+	quest.4C78CF6774C3BF1D.title: "Conchas del Fondo"
+	quest.4D6A16FD930AFF31.title: "Guardianes de Llamas"
+	quest.4F55566550A80C4E.title: "Agradecimiento a los Antepasados"
+	quest.50E3F96822DC58AE.title: "Fin del Culto"
+	quest.5605CA707703DD35.title: "Siembra la Primera Semilla"
 	quest.5A5C103E0FDA7291.quest_desc: [
 		"Llega a la Plaza Principal del Estero."
 		"Coordenadas: X=500, Y=64, Z=500"
 		"Habla con Don Santiago para empezar tu camino."
 	]
 	quest.5A5C103E0FDA7291.title: "La Siesta del Estero"
+	quest.5F5FD01693B99294.title: "Pago al Capitan"
+	quest.5FB66EB1A56B8EF1.title: "Robar el Tomo"
+	quest.619E301526E3D307.title: "Limpiemos el Rio"
+	quest.64A37CEB2AD436B1.title: "Barco Cargado"
 	quest.6F9109C9C141624D.quest_desc: [
 		"Don Santiago guarda un secreto."
 		"Consigue cuero para sobrevivir en el calor santiagueno."
 		"El Estero no perdona a los mal equipados."
 	]
 	quest.6F9109C9C141624D.title: "Equipate para el Calor"
+	quest.7114CB93CB4C68F3.title: "Fantasmas del Pasado"
 	quest.7146795780CD7733.quest_desc: [
 		"Maestro Dulce te espera en su Dulceria."
 		"Coordenadas: X=1015, Y=65, Z=-280"
@@ -141,6 +137,8 @@
 		"Coloca el Nether Star como ofrenda — la victoria es total."
 	]
 	quest.75E77F195CCD9FC5.title: "La Nube Dorada Recuperada"
+	quest.77D2BE791A1E1226.title: "El Libro Prohibido"
+	quest.7A84BDFD0486F11A.title: "Protegemos a los Ciudadanos"
 	quest.A000000000000001.quest_desc: [
 		"La vida del andariego no es fácil"
 		"Pero al menos empezá con una manzana, boludo"
@@ -189,6 +187,24 @@
 	]
 	quest.A000000000000008.quest_subtitle: "El jefe final que nadie pidió"
 	quest.A000000000000008.title: "MOUSER el Raton Gigante"
+	quest.A6F7E8D9C0B10101.quest_desc: [
+		"La Sombra necesita materiales oscuros."
+		"Consigue obsidiana llorosa e incienso del Nether."
+		"Los rituales no perdonan errores."
+	]
+	quest.A6F7E8D9C0B10101.title: "Ritos Prohibidos"
+	quest.A6F7E8D9C0B10201.quest_desc: [
+		"El Innombrable quiere un libro de La Docta."
+		"Busca en las ruinas subterraneas de Cordoba."
+		"La Sombra siempre obtiene lo que quiere."
+	]
+	quest.A6F7E8D9C0B10201.title: "La Biblioteca Prohibida"
+	quest.A6F7E8D9C0B10301.quest_desc: [
+		"Los guardianes nocturnos protegen los secretos."
+		"Elimina 3 de ellos para ganar acceso a La Sombra."
+		"Los warlocks no sonNPCs de papel."
+	]
+	quest.A6F7E8D9C0B10301.title: "Los Guardianes de la Sombra"
 	quest.B000000000000001.quest_desc: [
 		"En Santiago del Estero, hasta los zombies laburan"
 		"Conseguí arbustos muertos y mandalos al otro mundo"
@@ -219,6 +235,150 @@
 	]
 	quest.B000000000000005.quest_subtitle: "El asfalto que nunca duerme"
 	quest.B000000000000005.title: "La Avenida Corrientes (Buenos Aires)"
+	quest.B1A2C3D4E5F60101.quest_desc: [
+		"La Tribu Barakoa te pone a prueba."
+		"Elimina a los muertos cerca de la Guarida del Guardian (X=520 Z=530)."
+		"Demuestra tu valor para ganarte su confianza."
+	]
+	quest.B1A2C3D4E5F60101.title: "El Primer Honor"
+	quest.B1A2C3D4E5F60201.quest_desc: [
+		"Tata Fawna necesita materiales sagrados."
+		"Consigue un bloque de oro y arena del alma."
+		"La Mascara de la Tribu te hara uno de ellos."
+	]
+	quest.B1A2C3D4E5F60201.title: "La Mascara Sagrada"
+	quest.B1A2C3D4E5F60301.quest_desc: [
+		"Los cultistas de la Llama amenazan la tribu."
+		"Elimina a 10 warlocks para sellar la alianza."
+		"La Tribu Barakoa luchara a tu lado."
+	]
+	quest.B1A2C3D4E5F60301.title: "Alianza de Sangre"
+	quest.B7A8F9E0D1C20101.quest_desc: [
+		"El Capitan Duarte necesita peces y cueros."
+		"Consigue 16 peces y 8 cueros de los docks."
+		"El Parana no espera a los vagos."
+	]
+	quest.B7A8F9E0D1C20101.title: "Barco Cargado"
+	quest.B7A8F9E0D1C20201.quest_desc: [
+		"El Capitan Duarte quiere una emeralda como pago."
+		"Dale 1 esmeralda al capitan de los docks."
+		"El comercio fluvial es la vida de Rosario."
+	]
+	quest.B7A8F9E0D1C20201.title: "Pago al Capitan"
+	quest.B7A8F9E0D1C20301.quest_desc: [
+		"Los Mortifagos contaminan el Parana."
+		"Elimina 3 drowned para limpiar el rio."
+		"Los mercaderes te lo recompensaran."
+	]
+	quest.B7A8F9E0D1C20301.title: "Protegamos el Rio"
+	quest.C2B3A4D5E6F70101.quest_desc: [
+		"Necesitas infiltrarte en el Culto de la Llama."
+		"Consigue un libro escribible para pasar como acolito."
+		"Cuidado, los cultistas desconfian de todos."
+	]
+	quest.C2B3A4D5E6F70101.title: "Infiltracion"
+	quest.C2B3A4D5E6F70201.quest_desc: [
+		"El Tomo Infernal contiene los secretos del culto."
+		"Recuperalo de las ruinas antes de que destruyan las pruebas."
+		"Te servira para entender sus debilidades."
+	]
+	quest.C2B3A4D5E6F70201.title: "Robar el Tomo"
+	quest.C2B3A4D5E6F70301.quest_desc: [
+		"El Heresiarch es el lider del culto."
+		"Derrotalo para poner fin a la amenaza oscura."
+		"Es un boss dificil — prepareate bien."
+	]
+	quest.C2B3A4D5E6F70301.title: "Fin del Culto"
+	quest.C8B9A0F1E2D30101.quest_desc: [
+		"El Capitan Muerto quiere que hables con sus ancestros."
+		"Busca 3 puntos en las islas del Parana."
+		"Los muertos siempre tienen algo que decir."
+	]
+	quest.C8B9A0F1E2D30101.title: "Fantasmas del Pasado"
+	quest.C8B9A0F1E2D30201.quest_desc: [
+		"El Sacerdote del Rio necesita conchas nautilus."
+		"Consigue 3 conchas del fondo del rio."
+		"El rio guarda sus tesoros mas profundos."
+	]
+	quest.C8B9A0F1E2D30201.title: "Conchas del Fondo"
+	quest.C8B9A0F1E2D30301.quest_desc: [
+		"Los Mortifagos amenazan a los mercaderes."
+		"Elimina 5 drowned para limpiar el rio."
+		"Rosario no puede vivir sin el Parana."
+	]
+	quest.C8B9A0F1E2D30301.title: "Limpiemos el Rio"
+	quest.D3C4B5A6F7E80101.quest_desc: [
+		"Los agricultores de Tucuman necesitan semillas."
+		"Consigue 3 semillas de trigo para las chacras del norte."
+		"La cosecha depende de vos, boludo."
+	]
+	quest.D3C4B5A6F7E80101.title: "Siembra la Primera Semilla"
+	quest.D3C4B5A6F7E80201.quest_desc: [
+		"Los agricultores necesitan agua para el ritual."
+		"Trae un cubo de agua y un bloque de heno."
+		"Sin agua, no hay cosecha en el norte."
+	]
+	quest.D3C4B5A6F7E80201.title: "Ritual del Agua"
+	quest.D3C4B5A6F7E80301.quest_desc: [
+		"Las aranas de las cuevas destruyen las siembras."
+		"Elimina 3 aranas de cueva para proteger las chacras."
+		"Los del Norte no se rinden ante nada."
+	]
+	quest.D3C4B5A6F7E80301.title: "Ofrenda al Buen Cultivo"
+	quest.D9C0B1A2F3E40101.quest_desc: [
+		"El Comandante Vael necesita que patrulles Buenos Aires."
+		"Visita 3 puntos de la ciudad para protegerla."
+		"La Guardia Real es la ultima defensa."
+	]
+	quest.D9C0B1A2F3E40101.title: "Guardia de la Ciudad"
+	quest.D9C0B1A2F3E40201.quest_desc: [
+		"Los ciudadanos de Buenos Aires estan en peligro."
+		"Derrota a cinco saqueadores que amenazan los caminos."
+		"La ciudad nunca duerme, vos tampoco."
+	]
+	quest.D9C0B1A2F3E40201.title: "Protegemos a los Ciudadanos"
+	quest.D9C0B1A2F3E40301.quest_desc: [
+		"Los Invasores del Vacio son la mayor amenaza."
+		"Elimina 5 enderman para defender Buenos Aires."
+		"El vacio no tiene piedad, vos tampoco."
+	]
+	quest.D9C0B1A2F3E40301.title: "Invasores del Vacio"
+	quest.E4D5C6B7A8F90101.quest_desc: [
+		"El Sumo Sacerdote Ignes necesita obsidiana y crema de magma."
+		"Consigue estos materiales para el altar del Fuego Interior."
+		"El fuego siempre encuentra al que lo busca."
+	]
+	quest.E4D5C6B7A8F90101.title: "El Fuego Sagrado"
+	quest.E4D5C6B7A8F90201.quest_desc: [
+		"Los Guardianes de Llamas protegen el altar."
+		"Elimina 5 de ellos para demostrar tu dominio del fuego."
+		"El fuego interior te consumira si fallas."
+	]
+	quest.E4D5C6B7A8F90201.title: "Guardianes de Llamas"
+	quest.E4D5C6B7A8F90301.quest_desc: [
+		"El Sumo Sacerdote pide una ofrenda de pesca."
+		"Consigue pescado fresco del rio para los antepasados."
+		"Los muertos del fuego siempre recordaran tu sacrificio."
+	]
+	quest.E4D5C6B7A8F90301.title: "Agradecimiento a los Antepasados"
+	quest.F5E6D7C8B9A00101.quest_desc: [
+		"El Maestro Zenon necesita cafe de los bosques."
+		"Consigue 8 granos de cafe para sus investigaciones."
+		"La sabiduria viene con el cafe, boludo."
+	]
+	quest.F5E6D7C8B9A00101.title: "Cafe de la Docta"
+	quest.F5E6D7C8B9A00201.quest_desc: [
+		"La Aprendiz Valeria quiere que sobrevivas una noche sin luz."
+		"Busca en las ruinas de La Docta sin usar antorchas."
+		"Los sabios no tienen miedo a la oscuridad."
+	]
+	quest.F5E6D7C8B9A00201.title: "Secretos de la Noche"
+	quest.F5E6D7C8B9A00301.quest_desc: [
+		"La Sombra quiere un libro de la Biblioteca de La Docta."
+		"Busca en las ruinas subterraneas de Cordoba."
+		"El conocimiento prohibido es el mas peligroso."
+	]
+	quest.F5E6D7C8B9A00301.title: "El Libro Prohibido"
 	task.D000000000000001.title: "Conseguí 1 manzana"
 	task.D000000000000002.title: "Conseguí 1 brújula"
 	task.D000000000000003.title: "Conseguí 3 wart del Nether"
@@ -233,4 +393,22 @@
 	task.D100000000000004.title: "Conseguí 8 rodajas de melón"
 	task.D100000000000005.title: "Matá 3 Pillagers"
 	task.D100000000000006.title: "Conseguí 16 panes"
+	task.D200000000000001.title: "Conseguí 3 semillas de trigo"
+	task.D200000000000002.title: "Conseguí 1 cubo de agua + 1 bloque de heno"
+	task.D200000000000003.title: "Matá 3 arañas de cueva"
+	task.D200000000000004.title: "Conseguí 1 obsidiana + 1 crema de magma"
+	task.D200000000000005.title: "Matá 5 heresiarchs"
+	task.D200000000000006.title: "Conseguí 1 cod + 1 salmon"
+	task.D200000000000007.title: "Conseguí 8 granos de cacao"
+	task.D200000000000008.title: "Sobrevive una noche sin luz"
+	task.D200000000000009.title: "Conseguí 1 libro"
+	task.D200000000000010.title: "Conseguí 1 obsidiana llorosa + 1 nether_wart"
+	task.D200000000000011.title: "Matá 3 warlocks"
+	task.D200000000000012.title: "Conseguí 16 cod + 8 cuero"
+	task.D200000000000013.title: "Conseguí 1 esmeralda"
+	task.D200000000000014.title: "Matá 3 drowned"
+	task.D200000000000015.title: "Visita 3 puntos de Buenos Aires"
+	task.D200000000000016.title: "Matá 5 enderman"
+	task.D200000000000017.title: "Conseguí 3 nautilus shells"
+	task.D200000000000018.title: "Matá 5 drowned"
 }

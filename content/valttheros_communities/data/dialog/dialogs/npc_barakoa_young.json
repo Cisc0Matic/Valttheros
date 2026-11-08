@@ -1,0 +1,21 @@
+{
+    "title":  "Joven Kael",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Joven Kael",
+                        "text":  "Hola! Tata Fawna dice que algun dia sere un gran guerrero Barakoa. Quieres ver mi lanza?",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "barakoa_seer.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_barakoa_young"
+}

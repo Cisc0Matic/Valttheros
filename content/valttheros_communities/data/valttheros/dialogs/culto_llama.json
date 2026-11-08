@@ -1,0 +1,12 @@
+{
+  "title": "Culto de la Llama",
+  "description": "Encuentro con los cultistas del Estero",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Sombras Veloz",
+      "text": "Shh... no deberias estar aqui. El Culto de la Llama no recibe visitas sin invitacion. Vete mientras puedas."
+    }
+  ]
+}

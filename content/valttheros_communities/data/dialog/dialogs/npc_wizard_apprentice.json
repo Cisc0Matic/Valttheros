@@ -1,0 +1,21 @@
+{
+    "title":  "Aprendiz Valeria",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Aprendiz Valeria",
+                        "text":  "Todavia estoy aprendiendo hechizos de fuego. Casi no me quemo las cejas la ultima vez.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "sabio_elder.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_wizard_apprentice"
+}

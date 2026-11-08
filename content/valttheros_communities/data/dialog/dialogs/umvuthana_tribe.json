@@ -1,0 +1,103 @@
+{
+    "id":  "umvuthana_tribe",
+    "description":  "Encuentro con la comunidad Umvuthana en Misiones",
+    "allowClose":  true,
+    "entries":  [
+                    {
+                        "speaker":  {
+                                        "bold":  true,
+                                        "color":  "gold",
+                                        "text":  "Jefa Nandi"
+                                    },
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "barakoa_seer.png",
+                                              "brightness":  1
+                                          }
+                                      ],
+                        "id":  "encuentro",
+                        "text":  "La selva de Misiones te ha traído hasta nosotros. ¿Vienes a buscar refugio o a probar tu valor?",
+                        "options":  [
+                                        {
+                                            "text":  "Vengo en paz.",
+                                            "target":  "paz"
+                                        },
+                                        {
+                                            "text":  "Busco una prueba.",
+                                            "target":  "prueba"
+                                        }
+                                    ]
+                    },
+                    {
+                        "speaker":  "Jefa Nandi",
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_seer.png",
+                                              "position":  "LEFT"
+                                          }
+                                      ],
+                        "id":  "paz",
+                        "text":  "Entonces escucha: el agua del Iguazú trae un rumor dorado. Ayúdanos a descubrir de dónde viene y la tribu te reconocerá.",
+                        "options":  [
+                                        {
+                                            "command":  [
+                                                            "tag @s add umvuthana_quest_river"
+                                                        ],
+                                            "target":  "encargo",
+                                            "text":  "Investigaré el río."
+                                        },
+                                        {
+                                            "text":  "Volveré después.",
+                                            "target":  "despedida"
+                                        }
+                                    ]
+                    },
+                    {
+                        "speaker":  "Jefa Nandi",
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_seer.png",
+                                              "position":  "LEFT"
+                                          }
+                                      ],
+                        "id":  "prueba",
+                        "text":  "Los Umvuthana no honran palabras vacías. Protege el sendero de la selva y vuelve cuando esté seguro.",
+                        "options":  [
+                                        {
+                                            "command":  [
+                                                            "tag @s add umvuthana_quest_trail"
+                                                        ],
+                                            "target":  "encargo",
+                                            "text":  "Acepto."
+                                        }
+                                    ]
+                    },
+                    {
+                        "speaker":  "Joven Umvuthana",
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_fury.png",
+                                              "position":  "RIGHT"
+                                          }
+                                      ],
+                        "endDialog":  true,
+                        "id":  "encargo",
+                        "text":  "La jefa te ha confiado una tarea. Pregunta por el río y te indicaré el camino."
+                    },
+                    {
+                        "speaker":  "Jefa Nandi",
+                        "portraits":  [
+                                          {
+                                              "path":  "barakoa_seer.png",
+                                              "position":  "LEFT"
+                                          }
+                                      ],
+                        "endDialog":  true,
+                        "id":  "despedida",
+                        "text":  "La selva seguirá aquí cuando estés listo."
+                    }
+                ],
+    "start":  "encuentro",
+    "title":  "Tribu Umvuthana"
+}

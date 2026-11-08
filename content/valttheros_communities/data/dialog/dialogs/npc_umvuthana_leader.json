@@ -1,0 +1,21 @@
+{
+    "title":  "Jefa Nandi",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Jefa Nandi",
+                        "text":  "La selva de Misiones nos vio nacer y nos vera morir. Los Umvuthana no rendimos honor a quien no lo gana.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "barakoa_seer.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_umvuthana_leader"
+}

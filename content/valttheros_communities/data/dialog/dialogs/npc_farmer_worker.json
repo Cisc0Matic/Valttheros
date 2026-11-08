@@ -1,0 +1,21 @@
+{
+    "title":  "Peon de las Chacras",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Peon de las Chacras",
+                        "text":  "Sol, tierra y sudor, todos los dias. Pero no cambiaria esta vida por nada.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "agricultor_elder.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_farmer_worker"
+}

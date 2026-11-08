@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "minecraft:plains",
+                   "minecraft:sunflower_plains",
+                   "biomesoplenty:forested_field",
+                   "biomesoplenty:orchard"
+               ]
+}

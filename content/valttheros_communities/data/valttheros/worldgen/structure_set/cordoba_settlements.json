@@ -1,0 +1,14 @@
+{
+    "placement":  {
+                      "salt":  34713384,
+                      "spacing":  12,
+                      "type":  "minecraft:random_spread",
+                      "separation":  6
+                  },
+    "structures":  [
+                       {
+                           "structure":  "valttheros:cordoba_settlements",
+                           "weight":  1
+                       }
+                   ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Sentinela de Turno",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Sentinela de Turno",
+      "text": "Guardia de turno, todo en orden. Sigue tu camino, forastero."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guardia_real"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:iron_chestplate"
+	}
+	id: "1F0B6369D0000676"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08D79AAA6D698BA1"
+			rewards: [
+				{
+					id: "66E70A5A335AFEAD"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Espada de la Guardia\"}"
+						}
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "487F4A9ACB61CDCB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "16C5E2370301C1C4"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A84BDFD0486F11A"
+			rewards: [
+				{
+					id: "7053ABEBBDF90960"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Armadura del Comandante\"}"
+						}
+						count: 1
+						id: "minecraft:diamond_chestplate"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5695542B3ABB674C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					id: "309618CCB15D7267"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "3D2F93D9F79023D9"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3B133311F6ED0C45"
+			rewards: [
+				{
+					id: "16692A8A2EB1C7B3"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Filo del Vacio\"}"
+						}
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "5D907AD9DABEDDC0"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "086A96B860CD73B1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "7DAB1F1B1BDEB991"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Explorador Sipho",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    { "id": "start", "speaker": "Explorador Sipho", "text": "Conozco cada sendero entre las cataratas. Si te perdes en la selva, busca mis huellas." }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "cordoba_sombra",
+  "title": "La Sombra",
+  "description": "Encuentro con La Sombra en los subterraneos de Córdoba",
+  "start": "whisper",
+  "entries": [
+    {
+      "id": "whisper",
+      "speaker": {"text": "El Innombrable", "color": "dark_purple", "bold": true},
+      "text": [
+        {"text": "Psst... ", "color": "gray"},
+        {"text": "No hagas ruido. La Sombra escucha todo.", "color": "dark_purple"},
+        {"text": "Que haces en nuestro territorío?", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "sombra_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Quiero unirme a La Sombra", "color": "dark_purple"},
+          "target": "join_shadow"
+        },
+        {
+          "text": {"text": "Busco información sobre ustedes", "color": "yellow"},
+          "target": "info_path"
+        },
+        {
+          "text": {"text": "No temo a la oscuridad", "color": "red"},
+          "target": "defiance"
+        }
+      ]
+    },
+    {
+      "id": "join_shadow",
+      "speaker": {"text": "El Innombrable", "color": "dark_purple"},
+      "text": [
+        {"text": "Unirte? ", "color": "gray"},
+        {"text": "La Sombra no acepta a cualquiera. ", "color": "dark_purple"},
+        {"text": "Primero, demuestra lealtad. Trae 1 libro prohibido de la Biblioteca de La Docta.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "sombra_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Traere el libro", "color": "dark_purple", "bold": true},
+          "target": "book_quest",
+          "command": ["tag @s add sombra_quest_book", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"dark_purple\"},{\"text\":\"MISIÓN OSCURA: Roba 1 libro de la Biblioteca de La Docta\",\"color\":\"red\"}]"]
+        },
+        {
+          "text": {"text": "Prefiero no involucrarme", "color": "gray"},
+          "target": "retreat_shadow"
+        }
+      ]
+    },
+    {
+      "id": "info_path",
+      "speaker": {"text": "Mensajero Enmascarado", "color": "dark_gray"},
+      "text": [
+        {"text": "La Sombra existe desde los tiempos coloniales. ", "color": "dark_gray"},
+        {"text": "Operamos en las noches, cuando La Docta duerme.", "color": "dark_purple"},
+        {"text": "Nadie sabe quienes somos realmente.", "color": "dark_gray"}
+      ],
+      "portraits": [
+        {"path": "sombra_messenger.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "join_shadow"
+    },
+    {
+      "id": "defiance",
+      "speaker": {"text": "El Innombrable", "color": "red", "bold": true},
+      "text": [
+        {"text": "VALIENTE O TONTO? ", "color": "red", "bold": true},
+        {"text": "La oscuridad te devorara!", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "sombra_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:blindness 10 0", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"dark_purple\"},{\"text\":\"La Sombra te ciega con oscuridad pura!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "book_quest",
+      "speaker": {"text": "El Innombrable", "color": "dark_purple"},
+      "text": [
+        {"text": "Bien... ", "color": "gray"},
+        {"text": "El libro esta en la biblioteca de La Docta, seccion prohibida. ", "color": "dark_purple"},
+        {"text": "Cuidado, los sabios protegen sus secretos.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "sombra_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "retreat_shadow",
+      "speaker": {"text": "Mensajero Enmascarado", "color": "gray"},
+      "text": [
+        {"text": "Cobarde... ", "color": "gray"},
+        {"text": "La Sombra no olvida. Siempre estaremos observando.", "color": "dark_purple"}
+      ],
+      "portraits": [
+        {"path": "sombra_messenger.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "Las sombras de Córdoba se mueven con vida propia en la oscuridad de la noche..."}
+      ],
+      "portraits": [
+        {"path": "sombra_priest.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

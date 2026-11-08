@@ -1,0 +1,152 @@
+{
+  "id": "culto_llama",
+  "title": "Culto de la Llama",
+  "description": "Encuentro con el Culto de la Llama en las ruinas de Estero",
+  "start": "interception",
+  "entries": [
+    {
+      "id": "interception",
+      "speaker": {"text": "Sombras Veloz", "color": "dark_purple", "bold": true},
+      "text": [
+        {"text": "Un intruso... ", "color": "gray"},
+        {"text": "La Llama ha enviado a este lugar a los elegidos.", "color": "dark_purple"},
+        {"text": "Que quieres aquí, mortal?", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Quiero unirme al culto", "color": "dark_purple"},
+          "target": "join_path"
+        },
+        {
+          "text": {"text": "Dejen a los aldeanos en paz", "color": "green"},
+          "target": "rescue_path"
+        },
+        {
+          "text": {"text": "Preparense para pelear", "color": "red", "bold": true},
+          "target": "fight_path"
+        }
+      ]
+    },
+    {
+      "id": "join_path",
+      "speaker": {"text": "Sombras Veloz", "color": "dark_purple"},
+      "text": [
+        {"text": "Interesante... ", "color": "gray"},
+        {"text": "Un mortal que busca el poder de la Llama.", "color": "dark_purple"},
+        {"text": "Primero, demuestra tu lealtad. ", "color": "red"},
+        {"text": "Elimina al Golem de Hierro que protege a los aldeanos del norte.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto la tarea oscura", "color": "dark_purple", "bold": true},
+          "target": "dark_quest_started",
+          "command": ["tag @s add cultist_quest_golem", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"dark_purple\"},{\"text\":\"MISIÓN OSCURA: Elimina al Golem de Hierro del norte de Estero\",\"color\":\"red\"}]"]
+        },
+        {
+          "text": {"text": "No puedo hacer eso...", "color": "green"},
+          "target": "refuse_dark"
+        }
+      ]
+    },
+    {
+      "id": "rescue_path",
+      "speaker": {"text": "Acolito del Fuego", "color": "dark_red"},
+      "text": [
+        {"text": "JA JA JA! ", "color": "dark_red", "bold": true},
+        {"text": "Los aldeanos ya son nostros. ", "color": "red"},
+        {"text": "La Llama los consumes uno a uno."}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 0.5},
+        {"path": "cultist_heretic.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Entonces los liberare por la fuerza", "color": "gold", "bold": true},
+          "target": "heroic_quest",
+          "command": ["tag @s add cultist_quest_heroic", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"gold\"},{\"text\":\"MISIÓN HEROICA: Elimina 3 cultistas para liberar a los aldeanos\",\"color\":\"yellow\"}]"]
+        },
+        {
+          "text": {"text": "...me retiro por ahora", "color": "gray"},
+          "target": "retreat"
+        }
+      ]
+    },
+    {
+      "id": "fight_path",
+      "speaker": {"text": "Sombras Veloz", "color": "dark_red", "bold": true},
+      "text": [
+        {"text": "VALIENTE O TONTO? ", "color": "dark_red", "bold": true},
+        {"text": "La Llama te consumira!", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:weakness 15 1", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"red\"},{\"text\":\"Sombras Veloz te debilita con magia oscura!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "dark_quest_started",
+      "speaker": {"text": "Acolito del Fuego", "color": "dark_red"},
+      "text": [
+        {"text": "Sabia eleccion... ", "color": "dark_purple"},
+        {"text": "El Golem espera al norte. Cuando lo derrotes, la Llama te recibira.", "color": "gray"}
+      ],
+      "portraits": [
+        {"path": "cultist_heretic.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "cultist_end"
+    },
+    {
+      "id": "heroic_quest",
+      "speaker": {"text": "Sombras Veloz", "color": "dark_purple"},
+      "text": [
+        {"text": "Insensato! ", "color": "red"},
+        {"text": "La Llama castigara tu arrogancia!", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "cultist_end"
+    },
+    {
+      "id": "refuse_dark",
+      "speaker": {"text": "Sombras Veloz", "color": "dark_purple"},
+      "text": [
+        {"text": "Cobarde. ", "color": "gray"},
+        {"text": "La Llama no olvida. Volveremos por ti.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "cultist_end"
+    },
+    {
+      "id": "retreat",
+      "speaker": {"text": "Acolito del Fuego", "color": "dark_red"},
+      "text": [
+        {"text": "Huye, mientras puedas. ", "color": "gray"},
+        {"text": "La Llama siempre te encontrara.", "color": "dark_purple"}
+      ],
+      "portraits": [
+        {"path": "cultist_heretic.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "cultist_end"
+    },
+    {
+      "id": "cultist_end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "La presencia oscura se desvanece por un momento..."}
+      ],
+      "portraits": [
+        {"path": "cultist_warlock.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

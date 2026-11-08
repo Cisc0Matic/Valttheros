@@ -1,0 +1,12 @@
+{
+  "title": "Guardian del Bosque",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Guardian del Bosque",
+      "text": "Vigilo estas tierras dia y noche. Mientras respetes el estero, no tienes nada que temer de mi."
+    }
+  ]
+}

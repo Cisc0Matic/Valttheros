@@ -1,0 +1,129 @@
+{
+  "id": "ba_guardia_real",
+  "title": "Guardia Real de Buenos Aires",
+  "description": "Encuentro con la Guardia Real en la Plaza de Buenos Aires",
+  "start": "confrontation",
+  "entries": [
+    {
+      "id": "confrontation",
+      "speaker": {"text": "Comandante Vael", "color": "white", "bold": true},
+      "text": [
+        {"text": "ALTO! ", "color": "white", "bold": true},
+        {"text": "Quien se atreve a entrar sin permiso en la Plaza del Consejo?", "color": "gold"},
+        {"text": "La Guardia Real custodia Buenos Aires. Identificate.", "color": "white"}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Soy un viajero que busca proteger la ciudad", "color": "green"},
+          "target": "protector_path"
+        },
+        {
+          "text": {"text": "Necesito acceso a la Sala del Consejo", "color": "gold"},
+          "target": "council_path"
+        },
+        {
+          "text": {"text": "La Guardia Real no me impone", "color": "red"},
+          "target": "defiance_guardia"
+        }
+      ]
+    },
+    {
+      "id": "protector_path",
+      "speaker": {"text": "Comandante Vael", "color": "white"},
+      "text": [
+        {"text": "Protector, dices? ", "color": "gray"},
+        {"text": "Buenos Aires esta amenazada por los Invasores del Vacio.", "color": "red"},
+        {"text": "Si quieres protegerla, demuestra tu valentia.", "color": "gold"}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "prove_yourself_guardia"
+    },
+    {
+      "id": "council_path",
+      "speaker": {"text": "Sentinela de Turno", "color": "light_purple"},
+      "text": [
+        {"text": "La Sala del Consejo esta en X=5, Y=66, Z=5.", "color": "light_purple"},
+        {"text": "Pero primero tenes que ganarte el respeto de los comandantes.", "color": "white"}
+      ],
+      "portraits": [
+        {"path": "guardia_sentinel.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "prove_yourself_guardia"
+    },
+    {
+      "id": "defiance_guardia",
+      "speaker": {"text": "Comandante Vael", "color": "red", "bold": true},
+      "text": [
+        {"text": "NO IMPONE? ", "color": "red", "bold": true},
+        {"text": "La Guardia Real es la ultima defensa de Buenos Aires!", "color": "dark_red"},
+        {"text": "Si no respetas, te expulsaremos!", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:slowness 15 2", "effect give @s minecraft:weakness 15 1", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"red\"},{\"text\":\"La Guardia Real te debilita para que te calmes!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "prove_yourself_guardia",
+      "speaker": {"text": "Comandante Vael", "color": "white", "bold": true},
+      "text": [
+        {"text": "Escucha bien. ", "color": "white"},
+        {"text": "Los Invasores del Vacio atacan la ciudad cada noche. ", "color": "red"},
+        {"text": "Elimina 3 de ellos para demostrar que servis para la Guardia.", "color": "gold"}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto el desafio", "color": "gold", "bold": true},
+          "target": "quest_started_guardia",
+          "command": ["tag @s add guardia_quest_invaders", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"white\"},{\"text\":\"MISIÓN: Elimina 3 Invasores del Vacio en Buenos Aires\",\"color\":\"gold\"}]"]
+        },
+        {
+          "text": {"text": "Prefiero no involucrarme", "color": "gray"},
+          "target": "refuse_guardia"
+        }
+      ]
+    },
+    {
+      "id": "quest_started_guardia",
+      "speaker": {"text": "Sentinela de Turno", "color": "light_purple"},
+      "text": [
+        {"text": "Buena suerte, viajero! ", "color": "light_purple"},
+        {"text": "Los invasores son mas fuertes de lo que parecen.", "color": "white"},
+        {"text": "Volve cuando los hayas derrotado.", "color": "light_purple"}
+      ],
+      "portraits": [
+        {"path": "guardia_sentinel.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "refuse_guardia",
+      "speaker": {"text": "Comandante Vael", "color": "dark_gray", "bold": true},
+      "text": [
+        {"text": "Entonces no eres digno de la Guardia. ", "color": "dark_gray"},
+        {"text": "Buenos Aires no necesita cobardes. Andate.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "La Guardia Real se prepara para la siguiente oleada de Invasores del Vacio..."}
+      ],
+      "portraits": [
+        {"path": "guardia_commander.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

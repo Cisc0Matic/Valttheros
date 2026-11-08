@@ -1,0 +1,38 @@
+{
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:soul_sand"
+                             },
+                    "title":  {
+                                  "text":  "Guardian del Rio",
+                                  "color":  "gray"
+                              },
+                    "description":  {
+                                        "text":  "Los Mortifagos del Parana te reconocen como guardian del rio. Los muertos respetan tu valor.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "background":  "minecraft:textures/block/soul_sand.png"
+                },
+    "criteria":  {
+                     "mortifago_ally":  {
+                                            "trigger":  "minecraft:tick",
+                                            "conditions":  {
+                                                               "player":  [
+                                                                              {
+                                                                                  "condition":  "minecraft:entity_scores",
+                                                                                  "entity":  "this",
+                                                                                  "scores":  {
+                                                                                                 "community":  {
+                                                                                                                   "min":  7,
+                                                                                                                   "max":  7
+                                                                                                               }
+                                                                                             }
+                                                                              }
+                                                                          ]
+                                                           }
+                                        }
+                 }
+}

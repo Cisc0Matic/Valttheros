@@ -1,0 +1,22 @@
+{
+  "entity.v.tata_fawna": "Tata Fawna",
+  "entity.v.guardian_bosque": "Guardian del Bosque",
+  "entity.v.joven_kael": "Joven Kael",
+  "entity.v.sombras_veloz": "Sombras Veloz",
+  "entity.v.acolito_fuego": "Acolito del Fuego",
+  "entity.v.heresiarch": "Heresiarch",
+  "dialog.barakoa_tribe.title": "Tribu Barakoa",
+  "dialog.barakoa_tribe.speaker.tata_fawna": "Tata Fawna",
+  "dialog.barakoa_tribe.speaker.kael": "Joven Kael",
+  "dialog.barakoa_tribe.speaker.guardian": "Guardian del Bosque",
+  "dialog.barakoa_tribe.option.pacifist": "Soy un viajero pacifico",
+  "dialog.barakoa_tribe.option.honor": "Vengo en busca de honor",
+  "dialog.barakoa_tribe.option.agree": "Acepto la prueba",
+  "dialog.barakoa_tribe.option.refuse": "No necesito probar nada",
+  "dialog.culto_llama.title": "Culto de la Llama",
+  "dialog.culto_llama.speaker.sombras": "Sombras Veloz",
+  "dialog.culto_llama.speaker.acolito": "Acolito del Fuego",
+  "dialog.culto_llama.option.join": "Quiero unirme al culto",
+  "dialog.culto_llama.option.rescue": "Dejen a los aldeanos en paz",
+  "dialog.culto_llama.option.fight": "Preparense para pelear"
+}

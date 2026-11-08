@@ -1,0 +1,12 @@
+{
+  "title": "Guardia Real",
+  "description": "Encuentro con la Guardia Real de Buenos Aires",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Comandante Vael",
+      "text": "Alto ahi. Buenos Aires esta bajo proteccion de la Guardia Real. Identificate y declara tus intenciones, viajero."
+    }
+  ]
+}

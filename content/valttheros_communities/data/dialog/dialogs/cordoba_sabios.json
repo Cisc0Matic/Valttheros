@@ -1,0 +1,115 @@
+{
+  "id": "cordoba_sabios",
+  "title": "Sabios de La Docta",
+  "description": "Encuentro con los Sabios de La Docta en las ruinas de Córdoba",
+  "start": "greeting",
+  "entries": [
+    {
+      "id": "greeting",
+      "speaker": {"text": "Maestro Zenon", "color": "aqua", "bold": true},
+      "text": [
+        {"text": "Salve, viajero. ", "color": "aqua"},
+        {"text": "La Docta recibe a los que buscan conocimiento.", "color": "blue"},
+        {"text": "Que te trae a estas tierras de sabiduria?", "color": "aqua"}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Busco aprender las historias de Córdoba", "color": "aqua"},
+          "target": "learn_history"
+        },
+        {
+          "text": {"text": "Necesito que me ensenen recetas de batalla", "color": "gold"},
+          "target": "combat_recipes"
+        },
+        {
+          "text": {"text": "Que es La Docta?", "color": "yellow"},
+          "target": "explain_docta"
+        }
+      ]
+    },
+    {
+      "id": "learn_history",
+      "speaker": {"text": "Maestro Zenon", "color": "aqua"},
+      "text": [
+        {"text": "Las historias de Córdoba son profundas como los cafézudos del río. ", "color": "aqua"},
+        {"text": "Para honrar el saber, necesito que traigas 8 cafés de los bosques del sur.", "color": "blue"}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Traere el café de los bosques", "color": "green", "bold": true},
+          "target": "coffee_quest",
+          "command": ["tag @s add sabio_quest_coffee", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"aqua\"},{\"text\":\"MISIÓN: Consigue 8 cafés de los bosques de Córdoba\",\"color\":\"blue\"}]"]
+        },
+        {
+          "text": {"text": "El café es para debiles", "color": "red"},
+          "target": "refuse_sabio"
+        }
+      ]
+    },
+    {
+      "id": "combat_recipes",
+      "speaker": {"text": "Aprendiz Valeria", "color": "yellow"},
+      "text": [
+        {"text": "Batalla? ", "color": "yellow"},
+        {"text": "Los sabios no peleamos con fuerza, peleamos con mente.", "color": "aqua"},
+        {"text": "Pero si traes material de encantamiento, te puedo ensenar algo.", "color": "blue"}
+      ],
+      "portraits": [
+        {"path": "sabio_apprentice.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "learn_history"
+    },
+    {
+      "id": "explain_docta",
+      "speaker": {"text": "Maestro Zenon", "color": "aqua"},
+      "text": [
+        {"text": "La Docta es el corazon del saber argentino. ", "color": "aqua"},
+        {"text": "Aquí se estudiaron las primeras constelaciones del sur.", "color": "blue"},
+        {"text": "Los que respetan el conocimiento son bienvenidos.", "color": "aqua"}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "learn_history"
+    },
+    {
+      "id": "coffee_quest",
+      "speaker": {"text": "Maestro Zenon", "color": "aqua"},
+      "text": [
+        {"text": "Sabia eleccion, viajero. ", "color": "aqua"},
+        {"text": "Los cafézudos del sur esperan. Vuelve cuando tengas las 8 unidades.", "color": "blue"}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "refuse_sabio",
+      "speaker": {"text": "Maestro Zenon", "color": "dark_blue", "bold": true},
+      "text": [
+        {"text": "Entonces no eres digno de La Docta. ", "color": "dark_blue"},
+        {"text": "La sabiduria no se fuerza, se merece.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "El aroma a café recien hecho y libros antiguos llena las ruinas de La Docta..."}
+      ],
+      "portraits": [
+        {"path": "sabio_elder.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

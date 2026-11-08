@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fuego_interior"
+	group: "485E071B353FF153"
+	icon: {
+		id: "minecraft:magma_cream"
+	}
+	id: "63FFA2F4AFFD4533"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2D58A3848201F709"
+			rewards: [
+				{
+					id: "558A9D4CD246D16F"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_red\",\"italic\":false,\"text\":\"Golpe del Fuego Interior\"}"
+						}
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+				{
+					id: "415587425BE5FB6B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3338D015AF286C51"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4DD19DDD4B4A89A5"
+					item: { count: 1, id: "minecraft:magma_cream" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4D6A16FD930AFF31"
+			rewards: [
+				{
+					id: "69F81195CEE8A7FA"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_red\",\"italic\":false,\"text\":\"Espada de Llamas\"}"
+						}
+						count: 1
+						id: "minecraft:netherite_sword"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "40D711FB5019CBCA"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "1A039C2C38BB41CB"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "goety:heresiarch"
+				id: "358BF3DBB1100656"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4F55566550A80C4E"
+			rewards: [
+				{
+					id: "64344432575B5559"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"dark_red\",\"italic\":false,\"text\":\"Vara del Fuego\"}"
+						}
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "7054E26BC0A50226"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2B5E9843D1D3AA40"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "6F77314717AFDB12"
+					item: { count: 1, id: "minecraft:cod" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "163B91FB24BE9D51"
+					item: { count: 1, id: "minecraft:salmon" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

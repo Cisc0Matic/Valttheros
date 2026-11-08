@@ -1,0 +1,12 @@
+{
+  "title": "Peon de las Chacras",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Peon de las Chacras",
+      "text": "Sol, tierra y sudor, todos los dias. Pero no cambiaria esta vida por nada."
+    }
+  ]
+}

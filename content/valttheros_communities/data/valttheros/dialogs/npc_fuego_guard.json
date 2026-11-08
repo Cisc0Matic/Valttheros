@@ -1,0 +1,12 @@
+{
+  "title": "Guardian de Llamas",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Guardian de Llamas",
+      "text": "Nadie se acerca al fuego sagrado sin mi permiso. Nadie."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:book"
+                             },
+                    "title":  {
+                                  "text":  "Alianza de La Docta",
+                                  "color":  "aqua"
+                              },
+                    "description":  {
+                                        "text":  "Los Sabios de La Docta te han aceptado como uno de ellos. El conocimiento es tu arma.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "challenge",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "background":  "minecraft:textures/block/lapis_block.png"
+                },
+    "criteria":  {
+                     "wizard_ally":  {
+                                         "trigger":  "minecraft:tick",
+                                         "conditions":  {
+                                                            "player":  [
+                                                                           {
+                                                                               "condition":  "minecraft:entity_scores",
+                                                                               "entity":  "this",
+                                                                               "scores":  {
+                                                                                              "community":  {
+                                                                                                                "min":  4,
+                                                                                                                "max":  4
+                                                                                                            }
+                                                                                          }
+                                                                           }
+                                                                       ]
+                                                        }
+                                     }
+                 }
+}

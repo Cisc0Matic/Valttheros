@@ -1,0 +1,151 @@
+{
+  "id": "rosarío_mortifagos",
+  "title": "Mortifagos del Río",
+  "description": "Encuentro con los Mortifagos en las islas del Paraná, Rosarío",
+  "start": "interception",
+  "entries": [
+    {
+      "id": "interception",
+      "speaker": {"text": "El Capitan Muerto", "color": "gray", "bold": true},
+      "text": [
+        {"text": "Aaaaargh... ", "color": "dark_gray"},
+        {"text": "Otro vivo que se mete en nuestras aguas.", "color": "gray"},
+        {"text": "El río no perdona a los intrusos.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Que quieren de mi?", "color": "yellow"},
+          "target": "what_want"
+        },
+        {
+          "text": {"text": "Vengo a limpiar el río de su plaga", "color": "gold", "bold": true},
+          "target": "clean_river"
+        },
+        {
+          "text": {"text": "Los muertos no me asustan", "color": "red"},
+          "target": "defiance_mortifago"
+        }
+      ]
+    },
+    {
+      "id": "what_want",
+      "speaker": {"text": "Sacerdote del Río", "color": "dark_gray"},
+      "text": [
+        {"text": "Queremos... ", "color": "gray"},
+        {"text": "Que nos dejes en paz. ", "color": "dark_gray"},
+        {"text": "El Paraná es nuestro hogar. Los vivos no tienen derecho a juzgarnos.", "color": "gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_priest.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Entiendo... pero los muertos no pueden dominar el río", "color": "gold"},
+          "target": "negotiate"
+        },
+        {
+          "text": {"text": "Les hago un trato", "color": "yellow"},
+          "target": "bargain"
+        }
+      ]
+    },
+    {
+      "id": "clean_river",
+      "speaker": {"text": "El Capitan Muerto", "color": "red", "bold": true},
+      "text": [
+        {"text": "LIMPIAR EL RIO? ", "color": "red", "bold": true},
+        {"text": "JA JA JA! Los vivos son tan ingenuos.", "color": "dark_red"},
+        {"text": "El río siempre será nuestro.", "color": "gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:slowness 20 3", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"gray\"},{\"text\":\"El Capitan Muerto te debilita con su aliento helado!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "defiance_mortifago",
+      "speaker": {"text": "El Capitan Muerto", "color": "dark_red"},
+      "text": [
+        {"text": "No te asustan? ", "color": "gray"},
+        {"text": "Deberian. Somos los guardianes eternos del Paraná.", "color": "dark_red"},
+        {"text": "El río te tragara vivo si nos amenazas.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "negotiate",
+      "speaker": {"text": "Sacerdote del Río", "color": "gray"},
+      "text": [
+        {"text": "Interesante... ", "color": "gray"},
+        {"text": "Un vivo que entiende. ", "color": "dark_gray"},
+        {"text": "Trae 3 conchas nautilus del fondo del río y hablamos.", "color": "gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_priest.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto el trato", "color": "yellow", "bold": true},
+          "target": "nautilus_quest",
+          "command": ["tag @s add mortifago_quest_nautilus", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"gray\"},{\"text\":\"MISIÓN: Consigue 3 conchas nautilus del río\",\"color\":\"dark_gray\"}]"]
+        },
+        {
+          "text": {"text": "Prefiero no jugar con los muertos", "color": "gray"},
+          "target": "retreat_mortifago"
+        }
+      ]
+    },
+    {
+      "id": "bargain",
+      "speaker": {"text": "El Capitan Muerto", "color": "dark_gray"},
+      "text": [
+        {"text": "Un trato? ", "color": "gray"},
+        {"text": "Los mortifagos no hacemos tratos con los vivos.", "color": "dark_red"},
+        {"text": "Pero si traes ofrendas... quizas cambie de opinion.", "color": "gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "nautilus_quest"
+    },
+    {
+      "id": "nautilus_quest",
+      "speaker": {"text": "Sacerdote del Río", "color": "gray"},
+      "text": [
+        {"text": "Las conchas nautilus son raras. ", "color": "gray"},
+        {"text": "Buscalas en el fondo del río. Cuando las tengas, los mortifagos te recibiran.", "color": "dark_gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_priest.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "retreat_mortifago",
+      "speaker": {"text": "El Capitan Muerto", "color": "dark_gray"},
+      "text": [
+        {"text": "Huye. ", "color": "gray"},
+        {"text": "El río siempre recuerda a los que vinieron y huyeron.", "color": "dark_gray"}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "El agua del Paraná se torna turbia y helada cerca de las islas de los Mortifagos..."}
+      ],
+      "portraits": [
+        {"path": "mortifago_leader.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

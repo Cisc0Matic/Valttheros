@@ -1,0 +1,12 @@
+{
+  "title": "El Capitan Muerto",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "El Capitan Muerto",
+      "text": "El rio me reclamo hace tiempo. Ahora yo reclamo a quienes se atreven a navegarlo de noche."
+    }
+  ]
+}

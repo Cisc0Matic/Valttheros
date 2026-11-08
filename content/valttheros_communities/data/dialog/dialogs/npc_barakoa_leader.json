@@ -1,0 +1,21 @@
+{
+    "title":  "Tata Fawna",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Tata Fawna",
+                        "text":  "Los espiritus me hablan de tu llegada, forastero. Que los ancestros guien tu camino por el Estero.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "barakoa_seer.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_barakoa_leader"
+}

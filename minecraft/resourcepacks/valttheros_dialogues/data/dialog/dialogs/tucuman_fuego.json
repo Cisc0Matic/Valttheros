@@ -1,0 +1,125 @@
+{
+  "id": "tucuman_fuego",
+  "title": "Fuego Interior",
+  "description": "Encuentro con el culto del Fuego Interior en Tucuman",
+  "start": "interception",
+  "entries": [
+    {
+      "id": "interception",
+      "speaker": {"text": "Sumo Sacerdote Ignes", "color": "dark_red", "bold": true},
+      "text": [
+        {"text": "Un mortal... ", "color": "gray"},
+        {"text": "La llama interior te consume, siento tu fuego.", "color": "dark_red"},
+        {"text": "Que buscas ante el altar del Fuego Interior?", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "fuego_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Quiero aprender del fuego", "color": "dark_red"},
+          "target": "learn_fire"
+        },
+        {
+          "text": {"text": "Vengo a destruir este culto", "color": "gold", "bold": true},
+          "target": "destroy_cult"
+        },
+        {
+          "text": {"text": "Que es el Fuego Interior?", "color": "yellow"},
+          "target": "explain_cult"
+        }
+      ]
+    },
+    {
+      "id": "learn_fire",
+      "speaker": {"text": "Sumo Sacerdote Ignes", "color": "dark_red"},
+      "text": [
+        {"text": "Interesante... ", "color": "gray"},
+        {"text": "El fuego no se enseña. Se siente.", "color": "red"},
+        {"text": "Primero, trae 1 bloque de obsidiana y 1 crema de magma para el altar.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "fuego_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto la prueba del fuego", "color": "dark_red", "bold": true},
+          "target": "fire_quest_started",
+          "command": ["tag @s add fuego_quest_altar", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"dark_red\"},{\"text\":\"MISION: Consigue 1 obsidiana + 1 crema de magma para el altar del Fuego Interior\",\"color\":\"red\"}]"]
+        },
+        {
+          "text": {"text": "Prefiero no involucrarme", "color": "gray"},
+          "target": "retreat"
+        }
+      ]
+    },
+    {
+      "id": "destroy_cult",
+      "speaker": {"text": "Guardian de Llamas", "color": "red", "bold": true},
+      "text": [
+        {"text": "INSSENSATO! ", "color": "dark_red", "bold": true},
+        {"text": "El Fuego Interior consumira tu osadia!", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "fuego_guardian.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:fire_resistance 1 0", "effect give @s minecraft:burning 5 0", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"red\"},{\"text\":\"El Guardia de Llamas enciende tu cuerpo con magia purificadora!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "explain_cult",
+      "speaker": {"text": "Sumo Sacerdote Ignes", "color": "dark_red"},
+      "text": [
+        {"text": "El Fuego Interior es la fuerza que nos da vida. ", "color": "red"},
+        {"text": "Nacemos con el y morimos con el. ", "color": "dark_red"},
+        {"text": "Los que dominan el fuego... dominan el mundo.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "fuego_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Quiero aprender del fuego", "color": "dark_red"},
+          "target": "learn_fire"
+        },
+        {
+          "text": {"text": "Son peligrosos... me retiro", "color": "gray"},
+          "target": "retreat"
+        }
+      ]
+    },
+    {
+      "id": "fire_quest_started",
+      "speaker": {"text": "Guardian de Llamas", "color": "red"},
+      "text": [
+        {"text": "Bien... ", "color": "gray"},
+        {"text": "El altar espera. Cuando traigas los materiales, el sacerdote te recibira.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "fuego_guardian.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "retreat",
+      "speaker": {"text": "Sumo Sacerdote Ignes", "color": "gray"},
+      "text": [
+        {"text": "Huye mientras puedas. ", "color": "gray"},
+        {"text": "El fuego siempre encuentra al cobarde.", "color": "dark_red"}
+      ],
+      "portraits": [
+        {"path": "fuego_priest.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "El calor del altar del Fuego Interior pulsa como un corazon de lava..."}
+      ],
+      "portraits": [
+        {"path": "fuego_priest.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

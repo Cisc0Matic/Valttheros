@@ -1,0 +1,10 @@
+execute positioned 500 0 483 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 526 0 520 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 1000 0 -292 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 1100 0 -392 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned -800 0 592 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned -900 0 492 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 300 0 -692 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 320 0 -792 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 0 0 72 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace
+execute positioned 688 0 -54 positioned over world_surface run setblock ~ ~ ~ waystones:waystone replace

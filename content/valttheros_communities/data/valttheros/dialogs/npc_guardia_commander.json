@@ -1,0 +1,12 @@
+{
+  "title": "Comandante Vael",
+  "description": "Interaccion personal",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Comandante Vael",
+      "text": "Buenos Aires esta bajo mi proteccion. Comportate y no tendremos problemas, viajero."
+    }
+  ]
+}

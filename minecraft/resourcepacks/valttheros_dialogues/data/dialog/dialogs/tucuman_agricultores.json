@@ -1,0 +1,129 @@
+{
+  "id": "tucuman_agricultores",
+  "title": "Agricultores del Norte",
+  "description": "Encuentro con los Agricultores del Norte en las tierras tucumanas",
+  "start": "arrival",
+  "entries": [
+    {
+      "id": "arrival",
+      "speaker": {"text": "Don Eusebio", "color": "green", "bold": true},
+      "text": [
+        {"text": "Che, para! ", "color": "green"},
+        {"text": "Que haces en las tierras del Norte, boludo?", "color": "yellow"},
+        {"text": "Estas son las chacras de Tucuman. No se toleran forasteros.", "color": "dark_green"}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Vengo en paz, solo quiero conocer la zona", "color": "green"},
+          "target": "peaceful_farmers"
+        },
+        {
+          "text": {"text": "Busco trabajo en las chacras", "color": "yellow"},
+          "target": "work_path"
+        },
+        {
+          "text": {"text": "Estas tierras son mias ahora", "color": "red", "bold": true},
+          "target": "aggressive_response"
+        }
+      ]
+    },
+    {
+      "id": "peaceful_farmers",
+      "speaker": {"text": "Don Eusebio", "color": "green"},
+      "text": [
+        {"text": "En paz, decis... ", "color": "gray"},
+        {"text": "Bueno, el Norte recibe a todo el que respete la tierra.", "color": "green"},
+        {"text": "Pero primero, necesito que demuestres que no sos un vago.", "color": "dark_green"}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "next": "prove_yourself"
+    },
+    {
+      "id": "work_path",
+      "speaker": {"text": "Mecha", "color": "yellow"},
+      "text": [
+        {"text": "Trabajo? ", "color": "yellow"},
+        {"text": "Jaja! El pibe quiere laburar! ", "color": "green"},
+        {"text": "Bueno, hay cosas para hacer. Pero no es joda, eh.", "color": "yellow"}
+      ],
+      "portraits": [
+        {"path": "agricultor_young.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "prove_yourself"
+    },
+    {
+      "id": "prove_yourself",
+      "speaker": {"text": "Don Eusebio", "color": "green", "bold": true},
+      "text": [
+        {"text": "Escucha bien, pibe. ", "color": "green"},
+        {"text": "Los bichos del monte estan atacando las siembras. ", "color": "red"},
+        {"text": "Elimina 3 aranas de las cuevas que destruyen我们的 cosecha y te daremos una recompensa.", "color": "yellow"}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "options": [
+        {
+          "text": {"text": "Acepto, voy a limpiar esas aranas", "color": "green", "bold": true},
+          "target": "quest_started",
+          "command": ["tag @s add farmer_quest_spiders", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"green\"},{\"text\":\"MISION: Elimina 3 aranas de cueva en las chacras de Tucuman\",\"color\":\"yellow\"}]"]
+        },
+        {
+          "text": {"text": "No es mi problema", "color": "red"},
+          "target": "refuse_quest"
+        }
+      ]
+    },
+    {
+      "id": "quest_started",
+      "speaker": {"text": "Mecha", "color": "yellow"},
+      "text": [
+        {"text": "Dale, pibe! ", "color": "yellow"},
+        {"text": "Las aranas estan cerca de la cueva del monte. ", "color": "green"},
+        {"text": "Volve cuando las tengas, te esperamos con mate.", "color": "yellow"}
+      ],
+      "portraits": [
+        {"path": "agricultor_young.png", "position": "RIGHT", "brightness": 1.0}
+      ],
+      "next": "end"
+    },
+    {
+      "id": "refuse_quest",
+      "speaker": {"text": "Don Eusebio", "color": "dark_green", "bold": true},
+      "text": [
+        {"text": "Que lastima... ", "color": "gray"},
+        {"text": "El Norte no necesita vagos. Andate antes de que nos enojemos.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 1.0}
+      ]
+    },
+    {
+      "id": "aggressive_response",
+      "speaker": {"text": "Don Eusebio", "color": "dark_red", "bold": true},
+      "text": [
+        {"text": "ESE ES TODO? ", "color": "dark_red", "bold": true},
+        {"text": "Los del Norte no somos peleles. Somos mas viejos que estos montes.", "color": "red"}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 1.0}
+      ],
+      "command": ["effect give @s minecraft:slowness 15 2", "tellraw @s [{\"text\":\"[Valttheros] \",\"color\":\"red\"},{\"text\":\"Don Eusebio te debilita con una maldicion ancestral!\",\"color\":\"dark_red\"}]"]
+    },
+    {
+      "id": "end",
+      "speaker": {"text": "Narrador", "color": "gray", "italic": true},
+      "text": [
+        {"text": "El aroma a tierra mojada y mate caliente llena el aire de las chacras tucumanas..."}
+      ],
+      "portraits": [
+        {"path": "agricultor_elder.png", "position": "LEFT", "brightness": 0.3}
+      ]
+    }
+  ]
+}

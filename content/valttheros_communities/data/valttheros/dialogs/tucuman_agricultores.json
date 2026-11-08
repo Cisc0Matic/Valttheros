@@ -1,0 +1,12 @@
+{
+  "title": "Agricultores del Norte",
+  "description": "Encuentro con los agricultores de Tucuman",
+  "start": "start",
+  "entries": [
+    {
+      "id": "start",
+      "speaker": "Don Eusebio",
+      "text": "Che, bienvenido a las chacras de Tucuman. Aca la tierra da de todo si sabes cuidarla. Ayudanos y seras bien recibido en la comunidad."
+    }
+  ]
+}

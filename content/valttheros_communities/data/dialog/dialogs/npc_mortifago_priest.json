@@ -1,0 +1,21 @@
+{
+    "title":  "Sacerdote del Rio",
+    "description":  "Interaccion personal",
+    "start":  "start",
+    "entries":  [
+                    {
+                        "id":  "start",
+                        "speaker":  "Sacerdote del Rio",
+                        "text":  "Rezo por los ahogados del Parana. Algun dia, tu tambien necesitaras mis plegarias.",
+                        "portraits":  [
+                                          {
+                                              "position":  "LEFT",
+                                              "path":  "mortifago_leader.png",
+                                              "animationType":  "FADE_IN",
+                                              "size":  1
+                                          }
+                                      ]
+                    }
+                ],
+    "id":  "npc_mortifago_priest"
+}
