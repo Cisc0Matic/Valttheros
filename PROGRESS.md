@@ -384,3 +384,7 @@ If still crashes → remove Iris, restore Sodium 0.8.12 (no shaders but game wor
 
 
 - Se incorporó el resource pack de retratos al exportador; la exportación crea opciones mínimas para dejarlo activo al importar. En el menú de 1.1.4 el cliente ya cargó Awakening, Scripted Vision y la dependencia sin repetir el error anterior; no se abrió un mundo nuevo para no interrumpir la sesión del usuario.
+
+## 2026-11-08 — Corrección de entrada al mundo (1.1.6)
+
+Se fija spawnRadius en 0 durante la carga del datapack y en la reparación del punto inicial. Esto impide que The Awakening evalúe colisiones de agua durante la búsqueda aleatoria de aparición, antes de que exista la conexión del jugador. Se reconstruyeron el mod de comunidades y la exportación Prism 1.1.6. En minecraft/logs/latest.log, el mundo limpio 	est12 registró al jugador entrando en (500.5, 68.0, 500.5); no hay desconexión por datos inválidos en ese inicio. La aparición quedó estabilizada en este caso; selector, cinemática y asignación de poder requieren otra pasada de verificación funcional.

@@ -6,5 +6,6 @@ scoreboard objectives add reputation dummy
 scoreboard objectives add awakening_roll dummy
 scoreboard objectives add intro_cinema_delay dummy
 scoreboard objectives add spawn_repair dummy
+gamerule spawnRadius 0
 execute unless score #ready valttheros_init matches 1 run function valttheros:bootstrap
 execute unless score #ready spawn_repair matches 1 run function valttheros:repair_spawn

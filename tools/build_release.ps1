@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
-$version = '1.1.5'
+$version = '1.1.6'
 $dist = Join-Path $root "dist\Valttheros-$version"
 $zip = Join-Path $root "dist\Valttheros-$version.zip"
 if (Test-Path -LiteralPath $dist) { Remove-Item -LiteralPath $dist -Recurse -Force }
@@ -14,7 +14,7 @@ $cfg = @"
 [General]
 ConfigVersion=1.3
 ExportName=Valttheros
-ExportVersion=1.1.5
+ExportVersion=1.1.6
 ExportSummary=Aventura RPG de fantasia argentina con diez comunidades, misiones ramificadas y asentamientos generados en el mundo.
 ExportOptionalFiles=true
 InstanceType=OneSix

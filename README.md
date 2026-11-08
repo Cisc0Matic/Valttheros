@@ -1,8 +1,8 @@
-# Valttheros 1.1.5
+# Valttheros 1.1.6
 
 **Aventura RPG de fantasía regional en una Argentina alternativa.** Explora seis regiones, diez comunidades con intereses propios y la amenaza de la Nube Dorada.
 
-> Estado: Valttheros 1.1.5, Minecraft 1.21.1 / NeoForge 21.1.248. Se reparó el punto de aparición para evitar el fallo de entrada causado por Awakening y se corrigió la invocación de diálogos de VNDialog 1.0.6.
+> Estado: Valttheros 1.1.6, Minecraft 1.21.1 / NeoForge 21.1.248. Se fijó el radio de aparición en el centro seco del pueblo inicial para evitar que The Awakening evalúe colisiones de agua antes de conectar al jugador; se corrigió la invocación de diálogos de VNDialog 1.0.6.
 
 ## Al comenzar
 
@@ -44,7 +44,7 @@ La selección de linaje es contenido propio del pack y concede protección de en
 
 ## Importar y desarrollar
 
-Importa [dist/Valttheros-1.1.5.zip](dist/Valttheros-1.1.5.zip) desde Prism Launcher → Añadir instancia → Importar; asigna 6–8 GB de memoria y crea un mundo nuevo. Los retratos de diálogo se activan por defecto al importar. Los resource packs de título, splash y traducciones se pueden activar en Opciones → Paquetes de recursos.
+Importa [dist/Valttheros-1.1.6.zip](dist/Valttheros-1.1.6.zip) desde Prism Launcher → Añadir instancia → Importar; asigna 6–8 GB de memoria y crea un mundo nuevo. Los retratos de diálogo se activan por defecto al importar. Los resource packs de título, splash y traducciones se pueden activar en Opciones → Paquetes de recursos.
 
 El contenido editable está en `content/valttheros_communities`. Para reconstruir el mod y la exportación:
 
@@ -55,3 +55,6 @@ El contenido editable está en `content/valttheros_communities`. Para reconstrui
 ```
 
 `minecraft` es la instancia de trabajo: excluye saves, logs, mapas personales, cuentas y respaldos del ZIP. El paquete se armó para uso de prueba; antes de redistribuirlo públicamente hay que revisar las licencias de los mods.
+
+
+

@@ -1,9 +1,9 @@
-VALTTHEROS 1.1.5 — Aventura RPG de fantasía regional
+VALTTHEROS 1.1.6 — Aventura RPG de fantasía regional
 Minecraft 1.21.1 · NeoForge 21.1.248 · Java 21
 
 IMPORTAR
 1. Prism Launcher: Añadir instancia > Importar.
-2. Selecciona Valttheros-1.1.5.zip y asigna 6–8 GB de memoria.
+2. Selecciona Valttheros-1.1.6.zip y asigna 6–8 GB de memoria.
 3. Crea un mundo nuevo. Recibes protección inicial por tres minutos mientras escoges linaje; luego una cámara presenta tu despertar elemental.
 4. Elige uno de tres linajes. The Awakening te asigna al azar uno de seis poderes elementales.
 5. Abre el libro de FTB Quests. Haz clic derecho en personajes con nombre para conversar.
